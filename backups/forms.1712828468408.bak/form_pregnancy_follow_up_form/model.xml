@@ -1,0 +1,85 @@
+
+  <model>
+    <instance>
+        <pregnancy_follow_up_form xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" id="pregnfollowup" prefix="J1!pregnfollowup!" delimiter="#" version="2024-04-11 12:23:38">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <select/>
+            <user>
+              <contact_id/>
+              <parent>
+                <_id/>
+              </parent>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <phone/>
+              <short_name/>
+              <patient_id/>
+              <contact_type/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chp_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_age_in_months tag="hidden">0</patient_age_in_months>
+          <patient_age_in_days tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_phone tag="hidden"/>
+          <patient_sex/>
+          <patient_short_name tag="hidden"/>
+          <patient_display_name tag="hidden"/>
+          <patient_reaction tag="hidden"/>
+          <availability>
+            <availability_report>
+              <available/>
+              <followup_number/>
+            </availability_report>
+          </availability>
+          <form>
+            <reporter>
+              <group_report>
+                <person_name/>
+                <p_patient_name/>
+                <person_phone/>
+                <menstration_time/>
+                <yes_no_pregnant/>
+                <yes_pregnancy_note/>
+                <yes_pregnant/>
+                <danger_signs/>
+                <danger_sign_other/>
+                <breastfeeding/>
+                <breast_milk/>
+                <county/>
+              </group_report>
+            </reporter>
+          </form>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_follow_up_form>
+      </instance>
+    <instance id="contact-summary"/>
+  </model>
+

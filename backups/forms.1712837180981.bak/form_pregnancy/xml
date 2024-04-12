@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Pregnancy registration</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pregnancy/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/contact_type:label">
+            <value>patient</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/phone:label">
+            <value>Name</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/pregnancy/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/pregnancy/inputs/select:label">
+            <value>Selected</value>
+          </text>
+          <text id="/pregnancy/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pregnancy/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/pregnancy/inputs/user/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/pregnancy/inputs/user:label">
+            <value>User</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy id="pregnancy" prefix="J1!pregnancy!" delimiter="#" version="2024-04-11 15:01:52">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <select/>
+            <user>
+              <contact_id/>
+              <parent>
+                <_id/>
+              </parent>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <phone/>
+              <short_name/>
+              <patient_id/>
+              <contact_type/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pregnancy/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pregnancy/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy/inputs/select" type="string"/>
+      <bind nodeset="/pregnancy/inputs/user/contact_id" type="string"/>
+      <bind nodeset="/pregnancy/inputs/user/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pregnancy/inputs/contact/name" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/phone" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/contact_type" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/pregnancy/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/pregnancy/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pregnancy/inputs">
+      <group ref="/pregnancy/inputs/user">
+        <label ref="jr:itext('/pregnancy/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/pregnancy/inputs/user/contact_id">
+          <label ref="jr:itext('/pregnancy/inputs/user/contact_id:label')"/>
+        </input>
+        <group ref="/pregnancy/inputs/user/parent"/>
+      </group>
+      <group ref="/pregnancy/inputs/contact">
+        <input appearance="db-object" ref="/pregnancy/inputs/contact/_id">
+          <label ref="jr:itext('/pregnancy/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/pregnancy/inputs/contact/parent">
+          <group ref="/pregnancy/inputs/contact/parent/parent">
+            <group ref="/pregnancy/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+  </h:body>
+</h:html>

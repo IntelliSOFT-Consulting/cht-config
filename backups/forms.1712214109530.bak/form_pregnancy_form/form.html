@@ -1,0 +1,43 @@
+<form autocomplete="off" novalidate="novalidate" class="or clearfix pages" dir="ltr" data-form-id="pregnancy">
+<section class="form-logo"></section><h3 dir="auto" id="form-title">Pregnacy Form</h3>
+<select id="form-languages" style="display:none;" data-default-lang=""><option value="en">en</option> </select>
+  
+  
+    <section class="or-group-data or-branch pre-init or-appearance-field-list " name="/pregnancy_form/inputs" data-relevant="./source = 'user'"><section class="or-group " name="/pregnancy_form/inputs/patient"><h4><span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient:label">Patient</span></h4>
+<label class="question non-select or-appearance-db-object "><span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient/patient_name:label">What is the patient's name?</span><input type="text" name="/pregnancy_form/inputs/patient/patient_name" data-type-xml="string"></label><label class="question non-select "><span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient/person_phone:label">Phone Number</span><input type="tel" name="/pregnancy_form/inputs/patient/person_phone" data-constraint="true()" data-type-xml="tel"><span lang="en" class="or-constraint-msg active" data-itext-id="/pregnancy_form/inputs/patient/person_phone:jr:constraintMsg">Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678</span></label><label class="question non-select "><span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient/menstration_time:label">Last Menstruation Circle.</span><input type="text" name="/pregnancy_form/inputs/patient/menstration_time" data-type-xml="string"></label><fieldset class="question simple-select "><fieldset>
+<legend>
+<span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient/yes_no_pregnant:label">Is the mother Pregnant?</span>
+          </legend>
+<div class="option-wrapper">
+<label class=""><input type="radio" name="/pregnancy_form/inputs/patient/yes_no_pregnant" data-name="/pregnancy_form/inputs/patient/yes_no_pregnant" value="Yes" data-type-xml="select1"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/yes_no_pregnant/Yes:label">Yes</span></label><label class=""><input type="radio" name="/pregnancy_form/inputs/patient/yes_no_pregnant" data-name="/pregnancy_form/inputs/patient/yes_no_pregnant" value="No" data-type-xml="select1"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/yes_no_pregnant/No:label">No</span></label>
+</div>
+</fieldset></fieldset>
+<label class="question or-branch pre-init non-select "><span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient/yes_pregnant:label">How many months?</span><input type="number" name="/pregnancy_form/inputs/patient/yes_pregnant" data-relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'Yes')" data-type-xml="int"></label><fieldset class="question simple-select or-branch pre-init "><fieldset>
+<legend>
+<span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient/danger_signs:label">Is there any danger signs?</span>
+          </legend>
+<div class="option-wrapper">
+<label class=""><input type="checkbox" name="/pregnancy_form/inputs/patient/danger_signs" value="Signone" data-relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'Yes')" data-type-xml="select"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/danger_signs/Signone:label">Sign one</span></label><label class=""><input type="checkbox" name="/pregnancy_form/inputs/patient/danger_signs" value="Signtwo" data-relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'Yes')" data-type-xml="select"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/danger_signs/Signtwo:label">Sign two</span></label><label class=""><input type="checkbox" name="/pregnancy_form/inputs/patient/danger_signs" value="signs" data-relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'Yes')" data-type-xml="select"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/danger_signs/signs:label">signs</span></label>
+</div>
+</fieldset></fieldset>
+<fieldset class="question simple-select or-branch pre-init "><fieldset>
+<legend>
+<span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient/breastfeeding:label">Is the mother Breastfeeding?</span>
+          </legend>
+<div class="option-wrapper">
+<label class=""><input type="radio" name="/pregnancy_form/inputs/patient/breastfeeding" data-name="/pregnancy_form/inputs/patient/breastfeeding" value="Yes" data-relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'No')" data-type-xml="select1"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/breastfeeding/Yes:label">Yes</span></label><label class=""><input type="radio" name="/pregnancy_form/inputs/patient/breastfeeding" data-name="/pregnancy_form/inputs/patient/breastfeeding" value="No" data-relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'No')" data-type-xml="select1"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/breastfeeding/No:label">No</span></label>
+</div>
+</fieldset></fieldset>
+<fieldset class="question simple-select or-branch pre-init "><fieldset>
+<legend>
+<span lang="en" class="question-label active" data-itext-id="/pregnancy_form/inputs/patient/breast_milk:label">Is the breast Milk Enough?</span>
+          </legend>
+<div class="option-wrapper">
+<label class=""><input type="radio" name="/pregnancy_form/inputs/patient/breast_milk" data-name="/pregnancy_form/inputs/patient/breast_milk" value="Yes" data-relevant="selected( /pregnancy_form/inputs/patient/breastfeeding ,'Yes')" data-type-xml="select1"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/breast_milk/Yes:label">Yes</span></label><label class=""><input type="radio" name="/pregnancy_form/inputs/patient/breast_milk" data-name="/pregnancy_form/inputs/patient/breast_milk" value="No" data-relevant="selected( /pregnancy_form/inputs/patient/breastfeeding ,'Yes')" data-type-xml="select1"><span lang="en" class="option-label active" data-itext-id="/pregnancy_form/inputs/patient/breast_milk/No:label">No</span></label>
+</div>
+</fieldset></fieldset>
+      </section>
+      </section>
+  
+<fieldset id="or-calculated-items" style="display:none;"><label class="calculation non-select "><input type="hidden" name="/pregnancy_form/meta/instanceID" data-calculate="concat('uuid:', uuid())" data-type-xml="string"></label></fieldset>
+</form>

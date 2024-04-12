@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Pregnacy Form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pregnancy_form/inputs/patient/patient_name:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy_form id="pregnancy" prefix="J1!pregnancy!" delimiter="#" version="2024-04-04 09:51:52">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <patient>
+              <patient_name/>
+            </patient>
+          </inputs>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pregnancy_form/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pregnancy_form/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/patient_name" type="string"/>
+      <bind nodeset="/pregnancy_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pregnancy_form/inputs">
+      <group ref="/pregnancy_form/inputs/patient">
+        <label ref="jr:itext('/pregnancy_form/inputs/patient:label')"/>
+        <input appearance="db-object" ref="/pregnancy_form/inputs/patient/patient_name">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/patient_name:label')"/>
+        </input>
+      </group>
+    </group>
+  </h:body>
+</h:html>

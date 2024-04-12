@@ -1,0 +1,5 @@
+{
+  "person": true,
+  "place": false,
+  "expression": "contact.type === 'person' && (!contact.sex || contact.sex === 'male') && (!contact.date_of_birth || (ageInYears(contact) >= 12 && ageInYears(contact) <= 49)) && user._id != contact._id"
+}

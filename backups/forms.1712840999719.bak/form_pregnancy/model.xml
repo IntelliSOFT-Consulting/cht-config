@@ -1,0 +1,57 @@
+
+  <model>
+    <instance>
+        <pregnancy xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" id="pregn" prefix="J1!pregn!" delimiter="#" version="2024-04-11 16:06:45">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <select/>
+            <user>
+              <contact_id/>
+              <parent>
+                <_id/>
+              </parent>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <phone/>
+              <short_name/>
+              <patient_id/>
+              <contact_type/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chp_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+            <pregnacy>
+              <pregnant/>
+              <yes_pregnant/>
+              <breastfeeding/>
+              <lms/>
+              <breast_milk/>
+            </pregnacy>
+          </inputs>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy>
+      </instance>
+    <instance id="contact-summary"/>
+  </model>
+

@@ -1,0 +1,27 @@
+
+  <model>
+    <instance>
+        <pregnancy_form xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" id="pregnancy" prefix="J1!pregnancy!" delimiter="#" version="2024-04-04 09:51:52">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <patient>
+              <patient_name/>
+            </patient>
+          </inputs>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_form>
+      </instance>
+    <instance id="contact-summary"/>
+  </model>
+

@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Pregnacy Form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pregnancy_form/inputs/patient/breast_milk/No:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/breast_milk/Yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/breast_milk:label">
+            <value>Is the breast Milk Enough?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/breastfeeding/No:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/breastfeeding/Yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/breastfeeding:label">
+            <value>Is the mother Breastfeeding?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/danger_signs/Signone:label">
+            <value>Sign one</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/danger_signs/Signtwo:label">
+            <value>Sign two</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/danger_signs/signs:label">
+            <value>signs</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/danger_signs:label">
+            <value>Is there any danger signs?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/menstration_time:label">
+            <value>Last Menstruation Circle.</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/patient_name:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/person_phone:jr:constraintMsg">
+            <value>Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/person_phone:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/yes_no_pregnant/No:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/yes_no_pregnant/Yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/yes_no_pregnant:label">
+            <value>Is the mother Pregnant?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient/yes_pregnant:label">
+            <value>How many months?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/patient:label">
+            <value>Patient</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy_form id="pregnancy" prefix="J1!pregnancy!" delimiter="#" version="2024-04-04 09:57:08">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <patient>
+              <patient_name/>
+              <person_phone/>
+              <menstration_time/>
+              <yes_no_pregnant/>
+              <yes_pregnant/>
+              <danger_signs/>
+              <breastfeeding/>
+              <breast_milk/>
+            </patient>
+          </inputs>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pregnancy_form/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pregnancy_form/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/patient_name" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/person_phone" type="tel" constraint="true()" jr:constraintMsg="jr:itext('/pregnancy_form/inputs/patient/person_phone:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/menstration_time" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/yes_no_pregnant" type="select1"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/yes_pregnant" type="int" relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'Yes')"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/danger_signs" type="select" relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'Yes')"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/breastfeeding" type="select1" relevant="selected( /pregnancy_form/inputs/patient/yes_no_pregnant ,'No')"/>
+      <bind nodeset="/pregnancy_form/inputs/patient/breast_milk" type="select1" relevant="selected( /pregnancy_form/inputs/patient/breastfeeding ,'Yes')"/>
+      <bind nodeset="/pregnancy_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pregnancy_form/inputs">
+      <group ref="/pregnancy_form/inputs/patient">
+        <label ref="jr:itext('/pregnancy_form/inputs/patient:label')"/>
+        <input appearance="db-object" ref="/pregnancy_form/inputs/patient/patient_name">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/patient_name:label')"/>
+        </input>
+        <input ref="/pregnancy_form/inputs/patient/person_phone">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/person_phone:label')"/>
+        </input>
+        <input ref="/pregnancy_form/inputs/patient/menstration_time">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/menstration_time:label')"/>
+        </input>
+        <select1 ref="/pregnancy_form/inputs/patient/yes_no_pregnant">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/yes_no_pregnant:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/yes_no_pregnant/Yes:label')"/>
+            <value>Yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/yes_no_pregnant/No:label')"/>
+            <value>No</value>
+          </item>
+        </select1>
+        <input ref="/pregnancy_form/inputs/patient/yes_pregnant">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/yes_pregnant:label')"/>
+        </input>
+        <select ref="/pregnancy_form/inputs/patient/danger_signs">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/danger_signs:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/danger_signs/Signone:label')"/>
+            <value>Signone</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/danger_signs/Signtwo:label')"/>
+            <value>Signtwo</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/danger_signs/signs:label')"/>
+            <value>signs</value>
+          </item>
+        </select>
+        <select1 ref="/pregnancy_form/inputs/patient/breastfeeding">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/breastfeeding:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/breastfeeding/Yes:label')"/>
+            <value>Yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/breastfeeding/No:label')"/>
+            <value>No</value>
+          </item>
+        </select1>
+        <select1 ref="/pregnancy_form/inputs/patient/breast_milk">
+          <label ref="jr:itext('/pregnancy_form/inputs/patient/breast_milk:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/breast_milk/Yes:label')"/>
+            <value>Yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/inputs/patient/breast_milk/No:label')"/>
+            <value>No</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+  </h:body>
+</h:html>

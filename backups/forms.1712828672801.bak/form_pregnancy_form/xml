@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Pregnancy Report</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pregnancy_form/availability/availability_report/available/No:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/availability/availability_report/available/Yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/availability/availability_report/available:label">
+            <value>Is the <output value=" /pregnancy_form/patient_name "/> present for the follow up assessment?</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/breast_milk/No:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/breast_milk/Yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/breast_milk:label">
+            <value>Is the breast Milk Enough?</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/breastfeeding/No:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/breastfeeding/Yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/breastfeeding:label">
+            <value>Is the mother Breastfeeding?</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Baringo:label">
+            <value>Baringo</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Bomet:label">
+            <value>Bomet</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Bungoma:label">
+            <value>Bungoma</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Busia:label">
+            <value>Busia</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Elgeyo/Marakwet:label">
+            <value>Elgeyo/Marakwet</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Embu:label">
+            <value>Embu</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Garissa:label">
+            <value>Garissa</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Homa Bay:label">
+            <value>Homa Bay</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Isiolo:label">
+            <value>Isiolo</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kajiado:label">
+            <value>Kajiado</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kakamega:label">
+            <value>Kakamega</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kericho:label">
+            <value>Kericho</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kiambu:label">
+            <value>Kiambu</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kilifi:label">
+            <value>Kilifi</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kirinyaga:label">
+            <value>Kirinyaga</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kisii:label">
+            <value>Kisii</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kisumu:label">
+            <value>Kisumu</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kitui:label">
+            <value>Kitui</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Kwale:label">
+            <value>Kwale</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Laikipia:label">
+            <value>Laikipia</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Lamu:label">
+            <value>Lamu</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Machakos:label">
+            <value>Machakos</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Makueni:label">
+            <value>Makueni</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Mandera:label">
+            <value>Mandera</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Marsabit:label">
+            <value>Marsabit</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Meru:label">
+            <value>Meru</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Migori:label">
+            <value>Migori</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Mombasa:label">
+            <value>Mombasa</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Murang'a:label">
+            <value>Murang'a</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Nairobi County:label">
+            <value>Nairobi County</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Nakuru:label">
+            <value>Nakuru</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Nandi:label">
+            <value>Nandi</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Narok:label">
+            <value>Narok</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Nyamira:label">
+            <value>Nyamira</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Nyandarua:label">
+            <value>Nyandarua</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Nyeri:label">
+            <value>Nyeri</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Samburu:label">
+            <value>Samburu</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Siaya:label">
+            <value>Siaya</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Taita Taveta:label">
+            <value>Taita Taveta</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Tana River:label">
+            <value>Tana River</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Tharaka Nithi:label">
+            <value>Tharaka Nithi</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Trans Nzoia:label">
+            <value>Trans Nzoia</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Turkana:label">
+            <value>Turkana</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Uasin Gishu:label">
+            <value>Uasin Gishu</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Vihiga:label">
+            <value>Vihiga</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/Wajir:label">
+            <value>Wajir</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county/West Pokot:label">
+            <value>West Pokot</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/county:label">
+            <value>County</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/danger_sign_other:label">
+            <value>Other specify.</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/danger_signs/Headache:label">
+            <value>Headache</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/danger_signs/Joints_and_muscle_pain:label">
+            <value>Joints_and_muscle_pain</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/danger_signs/Rash_itching_swelling_on_skin:label">
+            <value>Rash_itching_swelling_on_skin</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/danger_signs/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/danger_signs:label">
+            <value>Is there any danger signs?</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/menstration_time:label">
+            <value>Last Menstruation Circle.</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/p_patient_name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/person_name:label">
+            <value>Name of the Person Reporting</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/person_phone:jr:constraintMsg">
+            <value>Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/person_phone:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/yes_no_pregnant/No:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/yes_no_pregnant/Yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/yes_no_pregnant:label">
+            <value>Is the mother Pregnant?</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter/group_report/yes_pregnant:label">
+            <value>How many months?</value>
+          </text>
+          <text id="/pregnancy_form/form/reporter:label">
+            <value>Report Details</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/contact_type:label">
+            <value>patient</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/chw_name:label">
+            <value>CHW name</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHW phone</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/phone:label">
+            <value>Name</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/pregnancy_form/inputs/select:label">
+            <value>Selected</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user:label">
+            <value>User</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy_form id="pregn" prefix="J1!pregn!" delimiter="#" version="1970-01-01 03:00:00">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <select/>
+            <user>
+              <contact_id/>
+              <parent>
+                <_id/>
+              </parent>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <phone/>
+              <short_name/>
+              <patient_id/>
+              <contact_type/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chw_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <patient_age_in_years tag="hidden"/>
+          <patient_age_in_months tag="hidden">0</patient_age_in_months>
+          <patient_age_in_days tag="hidden"/>
+          <patient_uuid tag="hidden"/>
+          <patient_id tag="hidden"/>
+          <patient_name tag="hidden"/>
+          <patient_phone tag="hidden"/>
+          <patient_sex/>
+          <patient_short_name tag="hidden"/>
+          <patient_display_name tag="hidden"/>
+          <patient_reaction tag="hidden"/>
+          <availability>
+            <availability_report>
+              <available/>
+            </availability_report>
+          </availability>
+          <form>
+            <reporter>
+              <group_report>
+                <person_name/>
+                <p_patient_name/>
+                <person_phone/>
+                <menstration_time/>
+                <yes_no_pregnant/>
+                <yes_pregnancy_note/>
+                <yes_pregnant/>
+                <danger_signs/>
+                <danger_sign_other/>
+                <breastfeeding/>
+                <breast_milk/>
+                <county/>
+              </group_report>
+            </reporter>
+          </form>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pregnancy_form/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pregnancy_form/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/select" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/user/contact_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/user/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/name" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/phone" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/contact_type" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/parent/parent/contact/chw_name" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/pregnancy_form/patient_age_in_years" type="string" calculate="floor( difference-in-months( ../inputs/contact/date_of_birth, today() ) div 12 )"/>
+      <bind nodeset="/pregnancy_form/patient_age_in_months" type="string" calculate="difference-in-months(  /pregnancy_form/inputs/contact/date_of_birth , today() )"/>
+      <bind nodeset="/pregnancy_form/patient_age_in_days" type="string" calculate="floor(decimal-date-time(today()) - decimal-date-time( /pregnancy_form/inputs/contact/date_of_birth ) )"/>
+      <bind nodeset="/pregnancy_form/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pregnancy_form/patient_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pregnancy_form/patient_name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pregnancy_form/patient_phone" type="string" calculate="../inputs/contact/phone"/>
+      <bind nodeset="/pregnancy_form/patient_sex" type="string" calculate="../inputs/contact/sex"/>
+      <bind nodeset="/pregnancy_form/patient_short_name" type="string" calculate="../inputs/contact/short_name"/>
+      <bind nodeset="/pregnancy_form/patient_display_name" type="string" calculate="if(../patient_short_name = '', ../patient_name, concat(../patient_name, ' (', ../patient_short_name, ')'))"/>
+      <bind nodeset="/pregnancy_form/patient_reaction" type="string" calculate="../inputs/select"/>
+      <bind nodeset="/pregnancy_form/availability/availability_report/available" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_form/form" relevant="selected( /pregnancy_form/availability/availability_report/available ,'Yes')"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/person_name" type="string" required="true()" calculate=" /pregnancy_form/patient_name "/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/p_patient_name" type="string" required="true()" calculate=" /pregnancy_form/patient_name "/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/person_phone" type="tel" jr:constraintMsg="jr:itext('/pregnancy_form/form/reporter/group_report/person_phone:jr:constraintMsg')" constraint="true()"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/menstration_time" type="string"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/yes_no_pregnant" type="select1"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/yes_pregnancy_note" readonly="true()" type="string" relevant="selected( /pregnancy_form/form/reporter/group_report/yes_no_pregnant ,'Yes')"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/yes_pregnant" type="int" relevant="selected( /pregnancy_form/form/reporter/group_report/yes_no_pregnant ,'Yes')"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/danger_signs" type="select" relevant="selected( /pregnancy_form/form/reporter/group_report/yes_no_pregnant ,'Yes')"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/danger_sign_other" type="string" relevant="selected( /pregnancy_form/form/reporter/group_report/danger_signs , 'other')"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/breastfeeding" type="select1" relevant="selected( /pregnancy_form/form/reporter/group_report/yes_no_pregnant ,'No')"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/breast_milk" type="select1" relevant="selected( /pregnancy_form/form/reporter/group_report/breastfeeding ,'Yes')"/>
+      <bind nodeset="/pregnancy_form/form/reporter/group_report/county" type="select1" required="true()"/>
+      <bind nodeset="/pregnancy_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pregnancy_form/inputs">
+      <group ref="/pregnancy_form/inputs/user">
+        <label ref="jr:itext('/pregnancy_form/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/pregnancy_form/inputs/user/contact_id">
+          <label ref="jr:itext('/pregnancy_form/inputs/user/contact_id:label')"/>
+        </input>
+        <group ref="/pregnancy_form/inputs/user/parent"/>
+      </group>
+      <group ref="/pregnancy_form/inputs/contact">
+        <input appearance="db-object" ref="/pregnancy_form/inputs/contact/_id">
+          <label ref="jr:itext('/pregnancy_form/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/pregnancy_form/inputs/contact/parent">
+          <group ref="/pregnancy_form/inputs/contact/parent/parent">
+            <group ref="/pregnancy_form/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group ref="/pregnancy_form/availability">
+      <group appearance="field-list" ref="/pregnancy_form/availability/availability_report">
+        <select1 ref="/pregnancy_form/availability/availability_report/available">
+          <label ref="jr:itext('/pregnancy_form/availability/availability_report/available:label')"/>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/availability/availability_report/available/Yes:label')"/>
+            <value>Yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/pregnancy_form/availability/availability_report/available/No:label')"/>
+            <value>No</value>
+          </item>
+        </select1>
+      </group>
+    </group>
+    <group ref="/pregnancy_form/form">
+      <group ref="/pregnancy_form/form/reporter">
+        <label ref="jr:itext('/pregnancy_form/form/reporter:label')"/>
+        <group appearance="field-list" ref="/pregnancy_form/form/reporter/group_report">
+          <input ref="/pregnancy_form/form/reporter/group_report/person_name">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/person_name:label')"/>
+          </input>
+          <input ref="/pregnancy_form/form/reporter/group_report/p_patient_name">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/p_patient_name:label')"/>
+          </input>
+          <input ref="/pregnancy_form/form/reporter/group_report/person_phone">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/person_phone:label')"/>
+          </input>
+          <input ref="/pregnancy_form/form/reporter/group_report/menstration_time">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/menstration_time:label')"/>
+          </input>
+          <select1 ref="/pregnancy_form/form/reporter/group_report/yes_no_pregnant">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/yes_no_pregnant:label')"/>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/yes_no_pregnant/Yes:label')"/>
+              <value>Yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/yes_no_pregnant/No:label')"/>
+              <value>No</value>
+            </item>
+          </select1>
+          <input ref="/pregnancy_form/form/reporter/group_report/yes_pregnancy_note"/>
+          <input ref="/pregnancy_form/form/reporter/group_report/yes_pregnant">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/yes_pregnant:label')"/>
+          </input>
+          <select ref="/pregnancy_form/form/reporter/group_report/danger_signs">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/danger_signs:label')"/>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/danger_signs/Headache:label')"/>
+              <value>Headache</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/danger_signs/Joints_and_muscle_pain:label')"/>
+              <value>Joints_and_muscle_pain</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/danger_signs/Rash_itching_swelling_on_skin:label')"/>
+              <value>Rash_itching_swelling_on_skin</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/danger_signs/other:label')"/>
+              <value>other</value>
+            </item>
+          </select>
+          <input ref="/pregnancy_form/form/reporter/group_report/danger_sign_other">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/danger_sign_other:label')"/>
+          </input>
+          <select1 ref="/pregnancy_form/form/reporter/group_report/breastfeeding">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/breastfeeding:label')"/>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/breastfeeding/Yes:label')"/>
+              <value>Yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/breastfeeding/No:label')"/>
+              <value>No</value>
+            </item>
+          </select1>
+          <select1 ref="/pregnancy_form/form/reporter/group_report/breast_milk">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/breast_milk:label')"/>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/breast_milk/Yes:label')"/>
+              <value>Yes</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/breast_milk/No:label')"/>
+              <value>No</value>
+            </item>
+          </select1>
+          <select1 appearance="autocomplete" ref="/pregnancy_form/form/reporter/group_report/county">
+            <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county:label')"/>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Mombasa:label')"/>
+              <value>Mombasa</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kwale:label')"/>
+              <value>Kwale</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kilifi:label')"/>
+              <value>Kilifi</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Tana River:label')"/>
+              <value>Tana River</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Lamu:label')"/>
+              <value>Lamu</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Taita Taveta:label')"/>
+              <value>Taita Taveta</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Garissa:label')"/>
+              <value>Garissa</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Wajir:label')"/>
+              <value>Wajir</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Mandera:label')"/>
+              <value>Mandera</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Marsabit:label')"/>
+              <value>Marsabit</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Isiolo:label')"/>
+              <value>Isiolo</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Meru:label')"/>
+              <value>Meru</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Tharaka Nithi:label')"/>
+              <value>Tharaka Nithi</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Embu:label')"/>
+              <value>Embu</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kitui:label')"/>
+              <value>Kitui</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Machakos:label')"/>
+              <value>Machakos</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Makueni:label')"/>
+              <value>Makueni</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Nyandarua:label')"/>
+              <value>Nyandarua</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Nyeri:label')"/>
+              <value>Nyeri</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kirinyaga:label')"/>
+              <value>Kirinyaga</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Murang'a:label')"/>
+              <value>Murang'a</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kiambu:label')"/>
+              <value>Kiambu</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Turkana:label')"/>
+              <value>Turkana</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/West Pokot:label')"/>
+              <value>West Pokot</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Samburu:label')"/>
+              <value>Samburu</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Trans Nzoia:label')"/>
+              <value>Trans Nzoia</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Uasin Gishu:label')"/>
+              <value>Uasin Gishu</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Elgeyo/Marakwet:label')"/>
+              <value>Elgeyo/Marakwet</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Nandi:label')"/>
+              <value>Nandi</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Baringo:label')"/>
+              <value>Baringo</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Laikipia:label')"/>
+              <value>Laikipia</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Nakuru:label')"/>
+              <value>Nakuru</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Narok:label')"/>
+              <value>Narok</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kajiado:label')"/>
+              <value>Kajiado</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kericho:label')"/>
+              <value>Kericho</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Bomet:label')"/>
+              <value>Bomet</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kakamega:label')"/>
+              <value>Kakamega</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Vihiga:label')"/>
+              <value>Vihiga</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Bungoma:label')"/>
+              <value>Bungoma</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Busia:label')"/>
+              <value>Busia</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Siaya:label')"/>
+              <value>Siaya</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kisumu:label')"/>
+              <value>Kisumu</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Homa Bay:label')"/>
+              <value>Homa Bay</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Migori:label')"/>
+              <value>Migori</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Kisii:label')"/>
+              <value>Kisii</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Nyamira:label')"/>
+              <value>Nyamira</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/pregnancy_form/form/reporter/group_report/county/Nairobi County:label')"/>
+              <value>Nairobi County</value>
+            </item>
+          </select1>
+        </group>
+      </group>
+    </group>
+  </h:body>
+</h:html>
