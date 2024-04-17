@@ -329,7 +329,7 @@
       <bind nodeset="/data/ward/contact/name" type="string"/>
       <bind nodeset="/data/ward/contact/contact_name" type="string" calculate="../name"/>
       <bind nodeset="/data/ward/contact/_id" type="db:person"/>
-      <bind nodeset="/data/ward/is_name_generated" type="select1" relevant="not( /data/ward/contact/_id ) or selected( . , 'true') or boolean( /data/ward/contact/_id )" calculate="if(  /data/ward/generated_name  = ../name, 'true', 'false')" required="true()" readonly="boolean( /data/ward/contact/_id )"/>
+      <bind nodeset="/data/ward/is_name_generated" type="select1" relevant="not( /data/ward/contact/_id ) or selected( . , 'true') or boolean( /data/ward/contact/_id )" calculate="if(  /data/ward/generated_name  = ../name, 'true', 'false')" readonly="boolean( /data/ward/contact/_id )" required="true()"/>
       <bind nodeset="/data/ward/generated_name" type="string" calculate=" /data/init/generated_name_translation "/>
       <bind nodeset="/data/ward/name" type="string" relevant="boolean( /data/ward/contact/_id ) or not( /data/ward/contact/_id ) or not(selected( /data/ward/is_name_generated , 'true')) or not(selected( /data/ward/is_name_generated , 'yes'))" calculate="if( ( selected( /data/ward/is_name_generated , 'true') or selected( /data/ward/is_name_generated , 'yes') ),  /data/ward/generated_name , .)" required="true()"/>
       <bind nodeset="/data/ward/external_id" type="string"/>
