@@ -791,10 +791,10 @@
       <bind nodeset="/pregnancy/inputs/contact/parent/parent/contact/chp_name" type="string"/>
       <bind nodeset="/pregnancy/inputs/contact/parent/parent/contact/phone" type="string"/>
       <bind nodeset="/pregnancy/pregnacy/pregnant" type="select1"/>
-      <bind nodeset="/pregnancy/pregnacy/yes_pregnant" type="int" relevant="selected( /pregnancy/pregnacy/pregnant , 'yes')" jr:constraintMsg="jr:itext('/pregnancy/pregnacy/yes_pregnant:jr:constraintMsg')" constraint=".&gt;=0 and .&lt;=12"/>
+      <bind nodeset="/pregnancy/pregnacy/yes_pregnant" type="int" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy/pregnacy/yes_pregnant:jr:constraintMsg')" relevant="selected( /pregnancy/pregnacy/pregnant , 'yes')"/>
       <bind nodeset="/pregnancy/pregnacy/pregnacy_dangers" type="select"/>
       <bind nodeset="/pregnancy/pregnacy/breastfeeding" type="select1" relevant="selected( /pregnancy/pregnacy/pregnant , 'no')"/>
-      <bind nodeset="/pregnancy/pregnacy/lms" type="int" relevant="selected( /pregnancy/pregnacy/pregnant , 'yes')" jr:constraintMsg="jr:itext('/pregnancy/pregnacy/lms:jr:constraintMsg')" constraint=".&gt;=0 and .&lt;=12"/>
+      <bind nodeset="/pregnancy/pregnacy/lms" type="int" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy/pregnacy/lms:jr:constraintMsg')" relevant="selected( /pregnancy/pregnacy/pregnant , 'yes')"/>
       <bind nodeset="/pregnancy/pregnacy/breast_milk" type="select1"/>
       <bind nodeset="/pregnancy/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
