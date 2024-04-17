@@ -1,6 +1,6 @@
 {
     "icon": "pregnancy",
-    "title": "Pregnancy registration",
+    "title": "Pregnancy follow up form",
     "context": {
         "person": true,
         "place": false,

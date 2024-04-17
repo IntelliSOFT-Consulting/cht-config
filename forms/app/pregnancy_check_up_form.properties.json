@@ -1,0 +1,8 @@
+{
+    "icon": "pregnancy",
+    "title": "Pregnancy registration",
+    "context": {
+        "person": true,
+        "place": false
+    }
+}
