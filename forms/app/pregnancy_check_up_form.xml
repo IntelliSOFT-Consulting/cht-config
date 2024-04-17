@@ -74,11 +74,83 @@
           <text id="/pregnancy_check_up_form/pregnacy/breastfeeding:label">
             <value>Is the patient Breastfeeding?</value>
           </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/alcohol:label">
+            <value>alcohol</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/none:label">
+            <value>none</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/other:label">
+            <value>other</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/smoking:label">
+            <value>smoking</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug:label">
+            <value>Does the mother use any of these drugs?</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/eveningwalk:label">
+            <value>evening walk</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/morningwalk:label">
+            <value>morning walk</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/none:label">
+            <value>none</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/other:label">
+            <value>other</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/swimming:label">
+            <value>swimming</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises:label">
+            <value>Does patient Engaging in these exercises?</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exersices_notes:label">
+            <value>It is advisable that you get to engage in different activities to keep the body alert.</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/apples:label">
+            <value>apples</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/banana:label">
+            <value>banana</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/mango:label">
+            <value>mango</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/oranges:label">
+            <value>oranges</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/other:label">
+            <value>other</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits:label">
+            <value>Is the patient taking these fruits?</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration:label">
+            <value>How many Glasses of water does the patien take per day?</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration_note:label">
+            <value>The patient should be taking 1 - 10 glasses of water per day. Remember to keep yourself hydrated.</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant:label">
+            <value>Is the infant healthy?</value>
+          </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg">
             <value>Months must be 1 - 12</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:label">
             <value>Last menstration Period</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/other_exersices:label">
+            <value>Specify other types of exersices engaged in.</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnacy_dangers/back_pain:label">
             <value>Back Pain</value>
@@ -100,6 +172,12 @@
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnant:label">
             <value>Is the patient Pregnant?</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/specify_drugs:label">
+            <value>Specify the type of drugs the mother uses.</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/suppliments:label">
+            <value>The patient should ensure that the take supliments such as: Iron, calscium, vitamin A, etc.</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
             <value>Months must be 1 - 12</value>
@@ -196,10 +274,82 @@
           <text id="/pregnancy_check_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/alcohol:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/smoking:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/eveningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/morningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/swimming:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exersices_notes:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/apples:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/banana:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/mango:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/oranges:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration_note:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/other_exersices:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -221,6 +371,12 @@
             <value>Oui</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/specify_drugs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/suppliments:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
@@ -318,10 +474,82 @@
           <text id="/pregnancy_check_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/alcohol:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/smoking:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/eveningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/morningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/swimming:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exersices_notes:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/apples:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/banana:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/mango:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/oranges:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration_note:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/other_exersices:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -343,6 +571,12 @@
             <value>हाँ</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/specify_drugs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/suppliments:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
@@ -440,10 +674,82 @@
           <text id="/pregnancy_check_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/alcohol:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/smoking:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/eveningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/morningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/swimming:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exersices_notes:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/apples:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/banana:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/mango:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/oranges:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration_note:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/other_exersices:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -465,6 +771,12 @@
             <value>Iya</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/specify_drugs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/suppliments:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
@@ -562,10 +874,82 @@
           <text id="/pregnancy_check_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/alcohol:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/smoking:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/eveningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/morningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/swimming:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exersices_notes:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/apples:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/banana:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/mango:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/oranges:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration_note:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/other_exersices:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -587,6 +971,12 @@
             <value>हो</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/specify_drugs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/suppliments:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
@@ -684,10 +1074,82 @@
           <text id="/pregnancy_check_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/alcohol:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug/smoking:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/drug:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/eveningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/morningwalk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/none:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises/swimming:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exercises:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/exersices_notes:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/apples:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/banana:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/mango:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/oranges:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/fruits:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/hydration_note:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/infant:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/other_exersices:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_check_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -711,6 +1173,12 @@
           <text id="/pregnancy_check_up_form/pregnacy/pregnant:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_check_up_form/pregnacy/specify_drugs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_check_up_form/pregnacy/suppliments:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
             <value>-</value>
           </text>
@@ -720,7 +1188,7 @@
         </translation>
       </itext>
       <instance>
-        <pregnancy_check_up_form id="pregnancy_check_up_form" prefix="J1!pregnancy_check_up_form!" delimiter="#" version="2024-04-17 10:29:24">
+        <pregnancy_check_up_form id="pregnancy_check_up_form" prefix="J1!pregnancy_check_up_form!" delimiter="#" version="2024-04-17 15:46:11">
           <inputs>
             <meta>
               <location>
@@ -763,6 +1231,16 @@
             <pregnant/>
             <yes_pregnant/>
             <pregnacy_dangers/>
+            <fruits/>
+            <hydration/>
+            <hydration_note/>
+            <suppliments/>
+            <exercises/>
+            <other_exersices/>
+            <exersices_notes/>
+            <infant/>
+            <drug/>
+            <specify_drugs/>
             <breastfeeding/>
             <lms/>
             <breast_milk/>
@@ -791,10 +1269,20 @@
       <bind nodeset="/pregnancy_check_up_form/inputs/contact/parent/parent/contact/chp_name" type="string"/>
       <bind nodeset="/pregnancy_check_up_form/inputs/contact/parent/parent/contact/phone" type="string"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/pregnant" type="select1"/>
-      <bind nodeset="/pregnancy_check_up_form/pregnacy/yes_pregnant" type="int" jr:constraintMsg="jr:itext('/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg')" constraint=".&gt;=0 and .&lt;=12" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/yes_pregnant" type="int" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg')"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/pregnacy_dangers" type="select"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/fruits" type="select" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/hydration" type="int"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/hydration_note" readonly="true()" type="string"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/suppliments" readonly="true()" type="string" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/exercises" type="select"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/other_exersices" type="string" relevant="selected( /pregnancy_check_up_form/pregnacy/exercises , 'other')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/exersices_notes" readonly="true()" type="string" relevant="selected( /pregnancy_check_up_form/pregnacy/exercises , 'none')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/infant" type="select1" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/drug" type="select" relevant="selected( /pregnancy_check_up_form/pregnacy/infant , 'no')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/specify_drugs" type="string" relevant="selected( /pregnancy_check_up_form/pregnacy/drug , 'other')"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/breastfeeding" type="select1" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'no')"/>
-      <bind nodeset="/pregnancy_check_up_form/pregnacy/lms" type="int" jr:constraintMsg="jr:itext('/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg')" constraint=".&gt;=0 and .&lt;=12" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/lms" type="int" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg')"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/breast_milk" type="select1"/>
       <bind nodeset="/pregnancy_check_up_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
@@ -849,6 +1337,100 @@
           <value>other</value>
         </item>
       </select>
+      <select ref="/pregnancy_check_up_form/pregnacy/fruits">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/fruits:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/fruits/mango:label')"/>
+          <value>mango</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/fruits/banana:label')"/>
+          <value>banana</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/fruits/oranges:label')"/>
+          <value>oranges</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/fruits/apples:label')"/>
+          <value>apples</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/fruits/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/pregnancy_check_up_form/pregnacy/hydration">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/hydration:label')"/>
+      </input>
+      <input ref="/pregnancy_check_up_form/pregnacy/hydration_note">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/hydration_note:label')"/>
+      </input>
+      <input ref="/pregnancy_check_up_form/pregnacy/suppliments">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/suppliments:label')"/>
+      </input>
+      <select ref="/pregnancy_check_up_form/pregnacy/exercises">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/exercises:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/exercises/swimming:label')"/>
+          <value>swimming</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/exercises/eveningwalk:label')"/>
+          <value>eveningwalk</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/exercises/morningwalk:label')"/>
+          <value>morningwalk</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/exercises/other:label')"/>
+          <value>other</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/exercises/none:label')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <input ref="/pregnancy_check_up_form/pregnacy/other_exersices">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/other_exersices:label')"/>
+      </input>
+      <input ref="/pregnancy_check_up_form/pregnacy/exersices_notes">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/exersices_notes:label')"/>
+      </input>
+      <select1 ref="/pregnancy_check_up_form/pregnacy/infant">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/infant:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/infant/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/infant/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select ref="/pregnancy_check_up_form/pregnacy/drug">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/drug:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/drug/smoking:label')"/>
+          <value>smoking</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/drug/alcohol:label')"/>
+          <value>alcohol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/drug/other:label')"/>
+          <value>other</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/drug/none:label')"/>
+          <value>none</value>
+        </item>
+      </select>
+      <input ref="/pregnancy_check_up_form/pregnacy/specify_drugs">
+        <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/specify_drugs:label')"/>
+      </input>
       <select1 ref="/pregnancy_check_up_form/pregnacy/breastfeeding">
         <label ref="jr:itext('/pregnancy_check_up_form/pregnacy/breastfeeding:label')"/>
         <item>
