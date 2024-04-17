@@ -1,0 +1,9 @@
+{
+    "icon": "pregnancy",
+    "title": "Pregnancy registration",
+    "context": {
+        "person": true,
+        "place": false,
+        "expression": "(!contact.sex || contact.sex === 'female')"
+    }
+}
