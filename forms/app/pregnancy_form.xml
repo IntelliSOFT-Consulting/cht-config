@@ -738,7 +738,7 @@
         </translation>
       </itext>
       <instance>
-        <pregnancy_form id="pregnancy_form" prefix="J1!pregnancy_form!" delimiter="#" version="2024-04-17 10:40:23">
+        <pregnancy_form id="pregnancy_form" prefix="J1!pregnancy_form!" delimiter="#" version="2024-04-18 09:01:44">
           <inputs>
             <meta>
               <location>
@@ -810,11 +810,11 @@
       <bind nodeset="/pregnancy_form/inputs/contact/parent/parent/contact/chp_name" type="string"/>
       <bind nodeset="/pregnancy_form/inputs/contact/parent/parent/contact/phone" type="string"/>
       <bind nodeset="/pregnancy_form/pregnacy/pregnant" type="select1"/>
-      <bind nodeset="/pregnancy_form/pregnacy/pregnancy_months" type="int" constraint=".&gt;=0 and .&lt;=12" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'yes')" jr:constraintMsg="jr:itext('/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_form/pregnacy/pregnancy_months" type="int" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg')" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'yes')"/>
       <bind nodeset="/pregnancy_form/pregnacy/pregnacy_dangers" type="select" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'yes')"/>
       <bind nodeset="/pregnancy_form/pregnacy/other_danger_signs" type="string" relevant="selected( /pregnancy_form/pregnacy/pregnacy_dangers , 'other')"/>
       <bind nodeset="/pregnancy_form/pregnacy/breastfeeding" type="select1" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'no')"/>
-      <bind nodeset="/pregnancy_form/pregnacy/lms" type="int" constraint=".&gt;=0 and .&lt;=12" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'yes')" jr:constraintMsg="jr:itext('/pregnancy_form/pregnacy/lms:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_form/pregnacy/lms" type="int" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy_form/pregnacy/lms:jr:constraintMsg')" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'yes')"/>
       <bind nodeset="/pregnancy_form/pregnacy/breast_milk" type="select1" relevant="selected( /pregnancy_form/pregnacy/breastfeeding , 'yes')"/>
       <bind nodeset="/pregnancy_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>

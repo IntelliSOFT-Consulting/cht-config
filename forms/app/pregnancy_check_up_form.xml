@@ -1269,7 +1269,7 @@
       <bind nodeset="/pregnancy_check_up_form/inputs/contact/parent/parent/contact/chp_name" type="string"/>
       <bind nodeset="/pregnancy_check_up_form/inputs/contact/parent/parent/contact/phone" type="string"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/pregnant" type="select1"/>
-      <bind nodeset="/pregnancy_check_up_form/pregnacy/yes_pregnant" type="int" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/yes_pregnant" type="int" constraint=".&gt;=0 and .&lt;=12" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')" jr:constraintMsg="jr:itext('/pregnancy_check_up_form/pregnacy/yes_pregnant:jr:constraintMsg')"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/pregnacy_dangers" type="select"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/fruits" type="select" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/hydration" type="int"/>
@@ -1282,7 +1282,7 @@
       <bind nodeset="/pregnancy_check_up_form/pregnacy/drug" type="select" relevant="selected( /pregnancy_check_up_form/pregnacy/infant , 'no')"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/specify_drugs" type="string" relevant="selected( /pregnancy_check_up_form/pregnacy/drug , 'other')"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/breastfeeding" type="select1" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'no')"/>
-      <bind nodeset="/pregnancy_check_up_form/pregnacy/lms" type="int" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg')"/>
+      <bind nodeset="/pregnancy_check_up_form/pregnacy/lms" type="int" constraint=".&gt;=0 and .&lt;=12" relevant="selected( /pregnancy_check_up_form/pregnacy/pregnant , 'yes')" jr:constraintMsg="jr:itext('/pregnancy_check_up_form/pregnacy/lms:jr:constraintMsg')"/>
       <bind nodeset="/pregnancy_check_up_form/pregnacy/breast_milk" type="select1"/>
       <bind nodeset="/pregnancy_check_up_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
