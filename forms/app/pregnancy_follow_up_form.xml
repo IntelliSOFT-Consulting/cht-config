@@ -56,6 +56,24 @@
           <text id="/pregnancy_follow_up_form/inputs/user:label">
             <value>User</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appetite:label">
+            <value>Have you noticed any change in your appetite?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment:label">
+            <value>Did you miss any previous appointment?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/baby_movements:label">
+            <value>Have you noticed any changes in the baby`s movements?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/bloating:label">
+            <value>Are you experiencing any swelling or bloating?</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/breast_milk/no:label">
             <value>No</value>
           </text>
@@ -74,11 +92,68 @@
           <text id="/pregnancy_follow_up_form/pregnacy/breastfeeding:label">
             <value>Is the patient Breastfeeding?</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/general:label">
+            <value>How are you feeling overall?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation:label">
+            <value>Is there an Improvement from previous visit</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/healthy_diet:label">
+            <value>Are you maintaining a healthy diet</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:jr:constraintMsg">
             <value>Months must be 1 - 12</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:label">
             <value>Last menstration Period</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication:label">
+            <value>Did you complete the medication provided</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/food_aversions:label">
+            <value>Food Aversions</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/mild:label">
+            <value>Mild Nausea</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/motion_sickness:label">
+            <value>Motion Sickness</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/persistent_nausea:label">
+            <value>Persistent Nausea</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/smell_sensitivity:label">
+            <value>Increase sensitivity to smell</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/vomiting:label">
+            <value>Vomiting</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness:label">
+            <value>Do you have any morning sickness or nausea?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/other_health_observations:label">
+            <value>Specify the helth issues observations!</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort:label">
+            <value>Are you experiencing any pain or disconfort?</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers/back_pain:label">
             <value>Back Pain</value>
@@ -90,7 +165,7 @@
             <value>Swelling</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers:label">
-            <value>Is there any danger signs</value>
+            <value>Is there any danger signs?</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnant/no:label">
             <value>No</value>
@@ -100,6 +175,45 @@
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnant:label">
             <value>Is the patient Pregnant?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit:label">
+            <value>Is the visit reason same as last time?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/sensations:label">
+            <value>Have you experienced any unusual sensations related to the baby`s activity?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort:label">
+            <value>Specify the pain or disconfort you are experiencing?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms:label">
+            <value>Specify any unusual symptoms experienced since your last visit?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms:label">
+            <value>Have you experienced any unusual symptoms since your last visit?</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/visit_reason:label">
+            <value>Reason for the visit (specify)</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins:label">
+            <value>Are you taking prenatal vitamins regularly?</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
             <value>Months must be 1 - 12</value>
@@ -178,6 +292,24 @@
           <text id="/pregnancy_follow_up_form/inputs:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appetite:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/baby_movements:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/bloating:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/breast_milk/no:label">
             <value>Non</value>
           </text>
@@ -196,10 +328,67 @@
           <text id="/pregnancy_follow_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/general:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/healthy_diet:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/food_aversions:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/mild:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/motion_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/persistent_nausea:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/smell_sensitivity:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/vomiting:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/other_health_observations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -221,6 +410,45 @@
             <value>Oui</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/sensations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/visit_reason:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
@@ -300,6 +528,24 @@
           <text id="/pregnancy_follow_up_form/inputs:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appetite:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/baby_movements:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/bloating:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/breast_milk/no:label">
             <value>नहीं</value>
           </text>
@@ -318,10 +564,67 @@
           <text id="/pregnancy_follow_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/general:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/healthy_diet:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/food_aversions:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/mild:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/motion_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/persistent_nausea:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/smell_sensitivity:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/vomiting:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/other_health_observations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -343,6 +646,45 @@
             <value>हाँ</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/sensations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/visit_reason:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
@@ -422,6 +764,24 @@
           <text id="/pregnancy_follow_up_form/inputs:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appetite:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/baby_movements:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/bloating:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/breast_milk/no:label">
             <value>Tidak</value>
           </text>
@@ -440,10 +800,67 @@
           <text id="/pregnancy_follow_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/general:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/healthy_diet:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/food_aversions:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/mild:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/motion_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/persistent_nausea:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/smell_sensitivity:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/vomiting:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/other_health_observations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -465,6 +882,45 @@
             <value>Iya</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/sensations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/visit_reason:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
@@ -544,6 +1000,24 @@
           <text id="/pregnancy_follow_up_form/inputs:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appetite:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/baby_movements:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/bloating:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/breast_milk/no:label">
             <value>होइन</value>
           </text>
@@ -562,10 +1036,67 @@
           <text id="/pregnancy_follow_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/general:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/healthy_diet:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/food_aversions:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/mild:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/motion_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/persistent_nausea:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/smell_sensitivity:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/vomiting:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/other_health_observations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -587,6 +1118,45 @@
             <value>हो</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/sensations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/visit_reason:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
@@ -666,6 +1236,24 @@
           <text id="/pregnancy_follow_up_form/inputs:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appetite:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/appointment:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/baby_movements:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/bloating:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/breast_milk/no:label">
             <value>Hapana</value>
           </text>
@@ -684,10 +1272,67 @@
           <text id="/pregnancy_follow_up_form/pregnacy/breastfeeding:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/general:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/health_observation:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/healthy_diet:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:jr:constraintMsg">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/medication:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/food_aversions:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/mild:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/motion_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/persistent_nausea:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/smell_sensitivity:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness/vomiting:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/morning_sickness:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/other_health_observations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/pain_disconfort:label">
             <value>-</value>
           </text>
           <text id="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers/back_pain:label">
@@ -711,6 +1356,45 @@
           <text id="/pregnancy_follow_up_form/pregnacy/pregnant:label">
             <value>-</value>
           </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/revisit:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/sensations:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/unusual_symptoms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/visit_reason:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_follow_up_form/pregnacy/vitamins:label">
+            <value>-</value>
+          </text>
           <text id="/pregnancy_follow_up_form/pregnacy/yes_pregnant:jr:constraintMsg">
             <value>-</value>
           </text>
@@ -720,7 +1404,7 @@
         </translation>
       </itext>
       <instance>
-        <pregnancy_follow_up_form id="pregnancyfollowup" prefix="J1!pregnancyfollowup!" delimiter="#" version="2024-04-17 10:29:24">
+        <pregnancy_follow_up_form id="pregnancyfollowup" prefix="J1!pregnancyfollowup!" delimiter="#" version="2024-04-26 15:06:38">
           <inputs>
             <meta>
               <location>
@@ -762,10 +1446,28 @@
           <pregnacy>
             <pregnant/>
             <yes_pregnant/>
+            <general/>
+            <unusual_symptoms/>
+            <specify_unusual_symptoms/>
+            <pain_disconfort/>
+            <specify_pain_disconfort/>
+            <morning_sickness/>
+            <appetite/>
+            <bloating/>
             <pregnacy_dangers/>
             <breastfeeding/>
             <lms/>
             <breast_milk/>
+            <revisit/>
+            <health_observation/>
+            <other_health_observations/>
+            <medication/>
+            <appointment/>
+            <visit_reason/>
+            <baby_movements/>
+            <sensations/>
+            <healthy_diet/>
+            <vitamins/>
           </pregnacy>
           <meta tag="hidden">
             <instanceID/>
@@ -791,11 +1493,29 @@
       <bind nodeset="/pregnancy_follow_up_form/inputs/contact/parent/parent/contact/chp_name" type="string"/>
       <bind nodeset="/pregnancy_follow_up_form/inputs/contact/parent/parent/contact/phone" type="string"/>
       <bind nodeset="/pregnancy_follow_up_form/pregnacy/pregnant" type="select1"/>
-      <bind nodeset="/pregnancy_follow_up_form/pregnacy/yes_pregnant" type="int" jr:constraintMsg="jr:itext('/pregnancy_follow_up_form/pregnacy/yes_pregnant:jr:constraintMsg')" relevant="selected( /pregnancy_follow_up_form/pregnacy/pregnant , 'yes')" constraint=".&gt;=0 and .&lt;=12"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/yes_pregnant" type="int" jr:constraintMsg="jr:itext('/pregnancy_follow_up_form/pregnacy/yes_pregnant:jr:constraintMsg')" constraint=".&gt;=0 and .&lt;=12" relevant="selected( /pregnancy_follow_up_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/general" type="string"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/unusual_symptoms" type="select1"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms" type="string"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/pain_disconfort" type="select1"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort" type="string"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/morning_sickness" type="select"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/appetite" type="string"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/bloating" type="string"/>
       <bind nodeset="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers" type="select"/>
       <bind nodeset="/pregnancy_follow_up_form/pregnacy/breastfeeding" type="select1" relevant="selected( /pregnancy_follow_up_form/pregnacy/pregnant , 'no')"/>
-      <bind nodeset="/pregnancy_follow_up_form/pregnacy/lms" type="int" jr:constraintMsg="jr:itext('/pregnancy_follow_up_form/pregnacy/lms:jr:constraintMsg')" relevant="selected( /pregnancy_follow_up_form/pregnacy/pregnant , 'yes')" constraint=".&gt;=0 and .&lt;=12"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/lms" type="int" jr:constraintMsg="jr:itext('/pregnancy_follow_up_form/pregnacy/lms:jr:constraintMsg')" constraint=".&gt;=0 and .&lt;=12" relevant="selected( /pregnancy_follow_up_form/pregnacy/pregnant , 'yes')"/>
       <bind nodeset="/pregnancy_follow_up_form/pregnacy/breast_milk" type="select1"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/revisit" type="select1"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/health_observation" type="select1" relevant="selected( /pregnancy_follow_up_form/pregnacy/revisit , 'yes')"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/other_health_observations" type="string" relevant="selected( /pregnancy_follow_up_form/pregnacy/revisit , 'yes')"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/medication" type="select1" relevant="selected( /pregnancy_follow_up_form/pregnacy/revisit , 'yes')"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/appointment" type="select1" relevant="selected( /pregnancy_follow_up_form/pregnacy/revisit , 'yes')"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/visit_reason" type="string" relevant="selected( /pregnancy_follow_up_form/pregnacy/revisit , 'no')"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/baby_movements" type="string"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/sensations" type="string"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/healthy_diet" type="string"/>
+      <bind nodeset="/pregnancy_follow_up_form/pregnacy/vitamins" type="select1"/>
       <bind nodeset="/pregnancy_follow_up_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
   </h:head>
@@ -834,6 +1554,70 @@
       <input ref="/pregnancy_follow_up_form/pregnacy/yes_pregnant">
         <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/yes_pregnant:label')"/>
       </input>
+      <input ref="/pregnancy_follow_up_form/pregnacy/general">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/general:label')"/>
+      </input>
+      <select1 ref="/pregnancy_follow_up_form/pregnacy/unusual_symptoms">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/unusual_symptoms:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/unusual_symptoms/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/unusual_symptoms/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/specify_unusual_symptoms:label')"/>
+      </input>
+      <select1 ref="/pregnancy_follow_up_form/pregnacy/pain_disconfort">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/pain_disconfort:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/pain_disconfort/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/pain_disconfort/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/specify_pain_disconfort:label')"/>
+      </input>
+      <select ref="/pregnancy_follow_up_form/pregnacy/morning_sickness">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/morning_sickness:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/morning_sickness/mild:label')"/>
+          <value>mild</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/morning_sickness/vomiting:label')"/>
+          <value>vomiting</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/morning_sickness/persistent_nausea:label')"/>
+          <value>persistent_nausea</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/morning_sickness/smell_sensitivity:label')"/>
+          <value>smell_sensitivity</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/morning_sickness/food_aversions:label')"/>
+          <value>food_aversions</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/morning_sickness/motion_sickness:label')"/>
+          <value>motion_sickness</value>
+        </item>
+      </select>
+      <input ref="/pregnancy_follow_up_form/pregnacy/appetite">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/appetite:label')"/>
+      </input>
+      <input ref="/pregnancy_follow_up_form/pregnacy/bloating">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/bloating:label')"/>
+      </input>
       <select ref="/pregnancy_follow_up_form/pregnacy/pregnacy_dangers">
         <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/pregnacy_dangers:label')"/>
         <item>
@@ -871,6 +1655,76 @@
         </item>
         <item>
           <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/breast_milk/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_follow_up_form/pregnacy/revisit">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/revisit:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/revisit/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/revisit/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_follow_up_form/pregnacy/health_observation">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/health_observation:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/health_observation/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/health_observation/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_follow_up_form/pregnacy/other_health_observations">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/other_health_observations:label')"/>
+      </input>
+      <select1 ref="/pregnancy_follow_up_form/pregnacy/medication">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/medication:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/medication/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/medication/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/pregnancy_follow_up_form/pregnacy/appointment">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/appointment:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/appointment/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/appointment/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_follow_up_form/pregnacy/visit_reason">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/visit_reason:label')"/>
+      </input>
+      <input ref="/pregnancy_follow_up_form/pregnacy/baby_movements">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/baby_movements:label')"/>
+      </input>
+      <input ref="/pregnancy_follow_up_form/pregnacy/sensations">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/sensations:label')"/>
+      </input>
+      <input ref="/pregnancy_follow_up_form/pregnacy/healthy_diet">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/healthy_diet:label')"/>
+      </input>
+      <select1 ref="/pregnancy_follow_up_form/pregnacy/vitamins">
+        <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/vitamins:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/vitamins/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_follow_up_form/pregnacy/vitamins/no:label')"/>
           <value>no</value>
         </item>
       </select1>
