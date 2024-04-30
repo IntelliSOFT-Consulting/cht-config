@@ -4,6 +4,6 @@
     "context": {
         "person": true,
         "place": false,
-        "expression": "(!contact.sex || contact.sex === 'female') && (!contact.date_of_birth || (ageInYears(contact) >= 12"
+        "expression": "(!contact.sex || contact.sex === 'female')"
     }
 }

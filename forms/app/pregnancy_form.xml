@@ -1,0 +1,902 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Pregnancy form</h:title>
+    <model>
+      <itext>
+        <translation lang="en">
+          <text id="/pregnancy_form/inputs/contact/_id:label">
+            <value>What is the patient's name?</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/contact_type:label">
+            <value>patient</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/date_of_birth:label">
+            <value>Date of Birth</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/chp_name:label">
+            <value>CHP name</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/phone:label">
+            <value>CHP phone</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/patient_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/phone:label">
+            <value>Name</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/sex:label">
+            <value>Sex</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/short_name:label">
+            <value>Short Name</value>
+          </text>
+          <text id="/pregnancy_form/inputs/select:label">
+            <value>Selected</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>Source</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>Source ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/contact_id:label">
+            <value>Contact ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent/_id:label">
+            <value>Parent ID</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user:label">
+            <value>User</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk:label">
+            <value>Is the breast milk enough?</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding:label">
+            <value>Is the patient Breastfeeding?</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:jr:constraintMsg">
+            <value>Months must be 1 - 12</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:label">
+            <value>Last menstration Period</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/other_danger_signs:label">
+            <value>Specify Other Danger Signs</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/back_pain:label">
+            <value>Back Pain</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/swelling:label">
+            <value>Swelling</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers:label">
+            <value>Is there any danger signs</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg">
+            <value>Months must be 1 - 12</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:label">
+            <value>How many months?</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/no:label">
+            <value>No</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant:label">
+            <value>Is <output value=" /pregnancy_form/inputs/contact/name "/> Pregnant?</value>
+          </text>
+        </translation>
+        <translation lang="fr">
+          <text id="/pregnancy_form/inputs/contact/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/contact_type:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/date_of_birth:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/chp_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/sex:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/short_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/select:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/other_danger_signs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/back_pain:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/swelling:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="hi">
+          <text id="/pregnancy_form/inputs/contact/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/contact_type:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/date_of_birth:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/chp_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/sex:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/short_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/select:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/other_danger_signs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/back_pain:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/swelling:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="id">
+          <text id="/pregnancy_form/inputs/contact/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/contact_type:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/date_of_birth:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/chp_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/sex:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/short_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/select:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/other_danger_signs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/back_pain:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/swelling:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="ne">
+          <text id="/pregnancy_form/inputs/contact/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/contact_type:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/date_of_birth:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/chp_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/sex:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/short_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/select:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/other_danger_signs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/back_pain:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/swelling:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation lang="sw">
+          <text id="/pregnancy_form/inputs/contact/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/contact_type:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/date_of_birth:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/chp_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/patient_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/phone:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/sex:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact/short_name:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/contact:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/select:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/source_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/contact_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent/_id:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user/parent:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs/user:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/inputs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breast_milk:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/breastfeeding:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/lms:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/other_danger_signs:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/back_pain:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/other:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers/swelling:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnacy_dangers:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnancy_months:label">
+            <value>-</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/pregnancy_form/pregnacy/pregnant:label">
+            <value>-</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pregnancy_form id="pregnancy_form" prefix="J1!pregnancy_form!" delimiter="#" version="2024-04-18 09:01:44">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source>user</source>
+            <source_id/>
+            <select/>
+            <user>
+              <contact_id/>
+              <parent>
+                <_id/>
+              </parent>
+            </user>
+            <contact>
+              <_id/>
+              <name/>
+              <phone/>
+              <short_name/>
+              <patient_id/>
+              <contact_type/>
+              <date_of_birth>0</date_of_birth>
+              <sex/>
+              <parent>
+                <_id/>
+                <parent>
+                  <contact>
+                    <chp_name/>
+                    <phone/>
+                  </contact>
+                </parent>
+              </parent>
+            </contact>
+          </inputs>
+          <pregnacy>
+            <pregnant/>
+            <pregnancy_months/>
+            <pregnacy_dangers/>
+            <other_danger_signs/>
+            <breastfeeding/>
+            <lms/>
+            <breast_milk/>
+          </pregnacy>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pregnancy_form>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pregnancy_form/inputs" relevant="false()"/>
+      <bind nodeset="/pregnancy_form/inputs/source" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/source_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/select" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/user/contact_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/user/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/name" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/phone" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/short_name" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/contact_type" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/date_of_birth" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/sex" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/parent/_id" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/parent/parent/contact/chp_name" type="string"/>
+      <bind nodeset="/pregnancy_form/inputs/contact/parent/parent/contact/phone" type="string"/>
+      <bind nodeset="/pregnancy_form/pregnacy/pregnant" type="select1"/>
+      <bind nodeset="/pregnancy_form/pregnacy/pregnancy_months" type="int" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy_form/pregnacy/pregnancy_months:jr:constraintMsg')" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_form/pregnacy/pregnacy_dangers" type="select" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_form/pregnacy/other_danger_signs" type="string" relevant="selected( /pregnancy_form/pregnacy/pregnacy_dangers , 'other')"/>
+      <bind nodeset="/pregnancy_form/pregnacy/breastfeeding" type="select1" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'no')"/>
+      <bind nodeset="/pregnancy_form/pregnacy/lms" type="int" constraint=".&gt;=0 and .&lt;=12" jr:constraintMsg="jr:itext('/pregnancy_form/pregnacy/lms:jr:constraintMsg')" relevant="selected( /pregnancy_form/pregnacy/pregnant , 'yes')"/>
+      <bind nodeset="/pregnancy_form/pregnacy/breast_milk" type="select1" relevant="selected( /pregnancy_form/pregnacy/breastfeeding , 'yes')"/>
+      <bind nodeset="/pregnancy_form/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group appearance="field-list" ref="/pregnancy_form/inputs">
+      <group ref="/pregnancy_form/inputs/user">
+        <label ref="jr:itext('/pregnancy_form/inputs/user:label')"/>
+        <input appearance="select-contact type-person" ref="/pregnancy_form/inputs/user/contact_id">
+          <label ref="jr:itext('/pregnancy_form/inputs/user/contact_id:label')"/>
+        </input>
+        <group ref="/pregnancy_form/inputs/user/parent"/>
+      </group>
+      <group ref="/pregnancy_form/inputs/contact">
+        <input appearance="db-object" ref="/pregnancy_form/inputs/contact/_id">
+          <label ref="jr:itext('/pregnancy_form/inputs/contact/_id:label')"/>
+        </input>
+        <group ref="/pregnancy_form/inputs/contact/parent">
+          <group ref="/pregnancy_form/inputs/contact/parent/parent">
+            <group ref="/pregnancy_form/inputs/contact/parent/parent/contact"/>
+          </group>
+        </group>
+      </group>
+    </group>
+    <group ref="/pregnancy_form/pregnacy">
+      <select1 ref="/pregnancy_form/pregnacy/pregnant">
+        <label ref="jr:itext('/pregnancy_form/pregnacy/pregnant:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/pregnant/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/pregnant/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_form/pregnacy/pregnancy_months">
+        <label ref="jr:itext('/pregnancy_form/pregnacy/pregnancy_months:label')"/>
+      </input>
+      <select ref="/pregnancy_form/pregnacy/pregnacy_dangers">
+        <label ref="jr:itext('/pregnancy_form/pregnacy/pregnacy_dangers:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/pregnacy_dangers/back_pain:label')"/>
+          <value>back_pain</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/pregnacy_dangers/swelling:label')"/>
+          <value>swelling</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/pregnacy_dangers/other:label')"/>
+          <value>other</value>
+        </item>
+      </select>
+      <input ref="/pregnancy_form/pregnacy/other_danger_signs">
+        <label ref="jr:itext('/pregnancy_form/pregnacy/other_danger_signs:label')"/>
+      </input>
+      <select1 ref="/pregnancy_form/pregnacy/breastfeeding">
+        <label ref="jr:itext('/pregnancy_form/pregnacy/breastfeeding:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/breastfeeding/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/breastfeeding/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/pregnancy_form/pregnacy/lms">
+        <label ref="jr:itext('/pregnancy_form/pregnacy/lms:label')"/>
+      </input>
+      <select1 ref="/pregnancy_form/pregnacy/breast_milk">
+        <label ref="jr:itext('/pregnancy_form/pregnacy/breast_milk:label')"/>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/breast_milk/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pregnancy_form/pregnacy/breast_milk/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

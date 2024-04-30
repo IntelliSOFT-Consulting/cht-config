@@ -128,14 +128,20 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/init/custom_place_name_label_translator/name:label">
             <value>Name</value>
           </text>
-          <text id="/data/init/generated_name/clinic:label">
+          <text id="/data/init/generated_name/community_health_area:label">
+            <value><output value=" /data/init/contact_name "/>'s community health area</value>
+          </text>
+          <text id="/data/init/generated_name/county:label">
+            <value><output value=" /data/init/contact_name "/>'s County</value>
+          </text>
+          <text id="/data/init/generated_name/household:label">
             <value><output value=" /data/init/contact_name "/>'s Household</value>
           </text>
-          <text id="/data/init/generated_name/district_hospital:label">
-            <value><output value=" /data/init/contact_name "/>'s Health Facility</value>
+          <text id="/data/init/generated_name/sub_county:label">
+            <value><output value=" /data/init/contact_name "/>'s Sub County</value>
           </text>
-          <text id="/data/init/generated_name/health_center:label">
-            <value><output value=" /data/init/contact_name "/>'s Area</value>
+          <text id="/data/init/generated_name/ward:label">
+            <value><output value=" /data/init/contact_name "/>'s Ward</value>
           </text>
           <text id="/data/init/place_type/clinic:label">
             <value>Household</value>
@@ -280,14 +286,20 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/init/custom_place_name_label_translator/name:label">
             <value>Nom</value>
           </text>
-          <text id="/data/init/generated_name/clinic:label">
-            <value>Zone de <output value=" /data/init/contact_name "/></value>
+          <text id="/data/init/generated_name/community_health_area:label">
+            <value>Centre de santé de <output value=" /data/init/contact_name "/></value>
           </text>
-          <text id="/data/init/generated_name/district_hospital:label">
+          <text id="/data/init/generated_name/county:label">
             <value>District de <output value=" /data/init/contact_name "/></value>
           </text>
-          <text id="/data/init/generated_name/health_center:label">
-            <value>Centre de santé de <output value=" /data/init/contact_name "/></value>
+          <text id="/data/init/generated_name/household:label">
+            <value>Zone de <output value=" /data/init/contact_name "/></value>
+          </text>
+          <text id="/data/init/generated_name/sub_county:label">
+            <value>District de <output value=" /data/init/contact_name "/></value>
+          </text>
+          <text id="/data/init/generated_name/ward:label">
+            <value>District de <output value=" /data/init/contact_name "/></value>
           </text>
           <text id="/data/init/place_type/clinic:label">
             <value>Zone</value>
@@ -432,14 +444,20 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/init/custom_place_name_label_translator/name:label">
             <value>नाम</value>
           </text>
-          <text id="/data/init/generated_name/clinic:label">
-            <value><output value=" /data/init/contact_name "/> का क्षेत्र</value>
+          <text id="/data/init/generated_name/community_health_area:label">
+            <value><output value=" /data/init/contact_name "/> का स्वास्थ्य केंद्र</value>
           </text>
-          <text id="/data/init/generated_name/district_hospital:label">
+          <text id="/data/init/generated_name/county:label">
             <value><output value=" /data/init/contact_name "/> का ज़िला</value>
           </text>
-          <text id="/data/init/generated_name/health_center:label">
-            <value><output value=" /data/init/contact_name "/> का स्वास्थ्य केंद्र</value>
+          <text id="/data/init/generated_name/household:label">
+            <value><output value=" /data/init/contact_name "/> का क्षेत्र</value>
+          </text>
+          <text id="/data/init/generated_name/sub_county:label">
+            <value><output value=" /data/init/contact_name "/> का ज़िला</value>
+          </text>
+          <text id="/data/init/generated_name/ward:label">
+            <value><output value=" /data/init/contact_name "/> का ज़िला</value>
           </text>
           <text id="/data/init/place_type/clinic:label">
             <value>क्षेत्र</value>
@@ -584,14 +602,20 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/init/custom_place_name_label_translator/name:label">
             <value>Nama</value>
           </text>
-          <text id="/data/init/generated_name/clinic:label">
-            <value>Daerah <output value=" /data/init/contact_name "/></value>
+          <text id="/data/init/generated_name/community_health_area:label">
+            <value>Fasilitas Kesehatan <output value=" /data/init/contact_name "/></value>
           </text>
-          <text id="/data/init/generated_name/district_hospital:label">
+          <text id="/data/init/generated_name/county:label">
             <value>Kabupaten <output value=" /data/init/contact_name "/></value>
           </text>
-          <text id="/data/init/generated_name/health_center:label">
-            <value>Fasilitas Kesehatan <output value=" /data/init/contact_name "/></value>
+          <text id="/data/init/generated_name/household:label">
+            <value>Daerah <output value=" /data/init/contact_name "/></value>
+          </text>
+          <text id="/data/init/generated_name/sub_county:label">
+            <value>Kabupaten <output value=" /data/init/contact_name "/></value>
+          </text>
+          <text id="/data/init/generated_name/ward:label">
+            <value>Kabupaten <output value=" /data/init/contact_name "/></value>
           </text>
           <text id="/data/init/place_type/clinic:label">
             <value>Daerah</value>
@@ -736,14 +760,20 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/init/custom_place_name_label_translator/name:label">
             <value>नाम</value>
           </text>
-          <text id="/data/init/generated_name/clinic:label">
-            <value><output value=" /data/init/contact_name "/>को क्षेत्र</value>
+          <text id="/data/init/generated_name/community_health_area:label">
+            <value><output value=" /data/init/contact_name "/>को स्वास्थ्य केन्द्र</value>
           </text>
-          <text id="/data/init/generated_name/district_hospital:label">
+          <text id="/data/init/generated_name/county:label">
             <value><output value=" /data/init/contact_name "/>को जिल्ला</value>
           </text>
-          <text id="/data/init/generated_name/health_center:label">
-            <value><output value=" /data/init/contact_name "/>को स्वास्थ्य केन्द्र</value>
+          <text id="/data/init/generated_name/household:label">
+            <value><output value=" /data/init/contact_name "/>को क्षेत्र</value>
+          </text>
+          <text id="/data/init/generated_name/sub_county:label">
+            <value><output value=" /data/init/contact_name "/>को जिल्ला</value>
+          </text>
+          <text id="/data/init/generated_name/ward:label">
+            <value><output value=" /data/init/contact_name "/>को जिल्ला</value>
           </text>
           <text id="/data/init/place_type/clinic:label">
             <value>क्षेत्र</value>
@@ -888,14 +918,20 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/init/custom_place_name_label_translator/name:label">
             <value>Jina</value>
           </text>
-          <text id="/data/init/generated_name/clinic:label">
-            <value>Eneo ya  <output value=" /data/init/contact_name "/></value>
+          <text id="/data/init/generated_name/community_health_area:label">
+            <value>Kituo cha afya cha  <output value=" /data/init/contact_name "/></value>
           </text>
-          <text id="/data/init/generated_name/district_hospital:label">
+          <text id="/data/init/generated_name/county:label">
             <value>WIlaya ya  <output value=" /data/init/contact_name "/></value>
           </text>
-          <text id="/data/init/generated_name/health_center:label">
-            <value>Kituo cha afya cha  <output value=" /data/init/contact_name "/></value>
+          <text id="/data/init/generated_name/household:label">
+            <value>Eneo ya  <output value=" /data/init/contact_name "/></value>
+          </text>
+          <text id="/data/init/generated_name/sub_county:label">
+            <value>WIlaya ya  <output value=" /data/init/contact_name "/></value>
+          </text>
+          <text id="/data/init/generated_name/ward:label">
+            <value>WIlaya ya  <output value=" /data/init/contact_name "/></value>
           </text>
           <text id="/data/init/place_type/clinic:label">
             <value>Eneo</value>
@@ -915,7 +951,7 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
         </translation>
       </itext>
       <instance>
-        <data id="contact:ward:create" prefix="J1!contact:ward:create!" delimiter="#" version="2024-04-11 11-14">
+        <data id="contact:ward:create" prefix="J1!contact:ward:create!" delimiter="#" version="2024-04-17 11-59">
           <inputs>
             <meta>
               <location>
@@ -1000,12 +1036,12 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/inputs/user/facility_id" type="string"/>
       <bind nodeset="/data/inputs/user/name" type="string"/>
       <bind nodeset="/data/init/create_new_person" type="select1" required="true()"/>
-      <bind nodeset="/data/init/select_person" type="db:person" relevant="selected( /data/init/create_new_person ,'old_person')" required="true()"/>
+      <bind nodeset="/data/init/select_person" type="db:person" required="true()" relevant="selected( /data/init/create_new_person ,'old_person')"/>
       <bind nodeset="/data/init/name" type="string"/>
       <bind nodeset="/data/init/contact_name" type="string" calculate="coalesce(../../contact/name, ../name)"/>
-      <bind nodeset="/data/init/custom_place_name_label_translator" type="select1" calculate="&quot;name&quot;" relevant="selected( /data/init/create_new_person ,'none') or selected( /data/ward/is_name_generated , 'false')"/>
+      <bind nodeset="/data/init/custom_place_name_label_translator" type="select1" relevant="selected( /data/init/create_new_person ,'none') or selected( /data/ward/is_name_generated , 'false')" calculate="&quot;name&quot;"/>
       <bind nodeset="/data/init/custom_place_name_label" type="string" calculate="jr:choice-name( /data/init/custom_place_name_label_translator ,' /data/init/custom_place_name_label_translator ')"/>
-      <bind nodeset="/data/init/custom_place_name" type="string" relevant="selected( /data/init/create_new_person ,'none') or selected( /data/ward/is_name_generated , 'false')" required="true()"/>
+      <bind nodeset="/data/init/custom_place_name" type="string" required="true()" relevant="selected( /data/init/create_new_person ,'none') or selected( /data/ward/is_name_generated , 'false')"/>
       <bind nodeset="/data/init/place_type" type="select1"/>
       <bind nodeset="/data/init/place_type_translation" type="string" calculate="jr:choice-name( /data/init/place_type ,' /data/init/place_type ')"/>
       <bind nodeset="/data/init/generated_name" type="select1"/>
@@ -1014,13 +1050,13 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/contact/parent" type="string"/>
       <bind nodeset="/data/contact/type" type="string"/>
       <bind nodeset="/data/contact/name" type="string" required="true()"/>
-      <bind nodeset="/data/contact/short_name" type="string" jr:constraintMsg="Short name can not be more than 10 characters long." constraint="string-length(.) &lt;= 10" required="false()"/>
-      <bind nodeset="/data/contact/date_of_birth" type="string" calculate="../ephemeral_dob/dob_iso" required="true()"/>
+      <bind nodeset="/data/contact/short_name" type="string" required="false()" jr:constraintMsg="Short name can not be more than 10 characters long." constraint="string-length(.) &lt;= 10"/>
+      <bind nodeset="/data/contact/date_of_birth" type="string" required="true()" calculate="../ephemeral_dob/dob_iso"/>
       <bind nodeset="/data/contact/date_of_birth_method" type="string" calculate="../ephemeral_dob/dob_method"/>
-      <bind nodeset="/data/contact/ephemeral_dob/dob_calendar" type="date" jr:constraintMsg="Date must be before today" constraint=". &lt;= now()" relevant="not(selected(../dob_method,'approx'))" required="true()"/>
+      <bind nodeset="/data/contact/ephemeral_dob/dob_calendar" type="date" required="true()" jr:constraintMsg="Date must be before today" relevant="not(selected(../dob_method,'approx'))" constraint=". &lt;= now()"/>
       <bind nodeset="/data/contact/ephemeral_dob/age_label" readonly="true()" type="string" relevant="selected(../dob_method,'approx')"/>
-      <bind nodeset="/data/contact/ephemeral_dob/age_years" type="int" jr:constraintMsg="Age must be between 0 and 130" constraint=". &gt;= 0 and . &lt;= 130" relevant="selected(../dob_method,'approx')" required="true()"/>
-      <bind nodeset="/data/contact/ephemeral_dob/age_months" type="int" jr:constraintMsg="Months must between 0 and 11" constraint=". &gt;= 0 and . &lt;= 11" relevant="selected(../dob_method,'approx')"/>
+      <bind nodeset="/data/contact/ephemeral_dob/age_years" type="int" required="true()" jr:constraintMsg="Age must be between 0 and 130" relevant="selected(../dob_method,'approx')" constraint=". &gt;= 0 and . &lt;= 130"/>
+      <bind nodeset="/data/contact/ephemeral_dob/age_months" type="int" jr:constraintMsg="Months must between 0 and 11" relevant="selected(../dob_method,'approx')" constraint=". &gt;= 0 and . &lt;= 11"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_method" type="select"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_approx" type="string" calculate="add-date(today(), 0- /data/contact/ephemeral_dob/age_years , 0- /data/contact/ephemeral_dob/age_months )"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_raw" type="string" calculate="if(not(selected( ../dob_method,'approx')), 
@@ -1028,11 +1064,11 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
 ../dob_approx)"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_iso" type="string" calculate="format-date-time(../dob_raw,&quot;%Y-%m-%d&quot;)"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_debug" readonly="true()" type="string" relevant="false()"/>
-      <bind nodeset="/data/contact/phone" type="tel" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678" constraint="true()" relevant="selected( /data/init/create_new_person ,'new_person')"/>
-      <bind nodeset="/data/contact/phone_alternate" type="tel" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678" constraint="true()" relevant="selected( /data/init/create_new_person ,'new_person')"/>
-      <bind nodeset="/data/contact/sex" type="select1" relevant="selected( /data/init/create_new_person ,'new_person')" required="true()"/>
+      <bind nodeset="/data/contact/phone" type="tel" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678" relevant="selected( /data/init/create_new_person ,'new_person')" constraint="true()"/>
+      <bind nodeset="/data/contact/phone_alternate" type="tel" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678" relevant="selected( /data/init/create_new_person ,'new_person')" constraint="true()"/>
+      <bind nodeset="/data/contact/sex" type="select1" required="true()" relevant="selected( /data/init/create_new_person ,'new_person')"/>
       <bind nodeset="/data/contact/role" type="select1" relevant="selected( /data/init/create_new_person ,'new_person')"/>
-      <bind nodeset="/data/contact/role_other" type="string" relevant="selected(  /data/contact/role ,'other')" required="true()"/>
+      <bind nodeset="/data/contact/role_other" type="string" required="true()" relevant="selected(  /data/contact/role ,'other')"/>
       <bind nodeset="/data/contact/external_id" type="string" relevant="selected( /data/init/create_new_person ,'new_person')"/>
       <bind nodeset="/data/contact/notes" type="string" relevant="selected( /data/init/create_new_person ,'new_person')"/>
       <bind nodeset="/data/contact/meta/created_by" type="string" calculate="../../../inputs/user/name"/>
@@ -1040,8 +1076,8 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/contact/meta/created_by_place_uuid" type="string" calculate="../../../inputs/user/facility_id"/>
       <bind nodeset="/data/ward/parent" type="string"/>
       <bind nodeset="/data/ward/type" type="string"/>
-      <bind nodeset="/data/ward/is_name_generated" type="select1" relevant="not(selected( /data/init/create_new_person ,'none'))" required="true()"/>
-      <bind nodeset="/data/ward/name" type="string" calculate="if( ( selected( /data/ward/is_name_generated , 'true') or selected( /data/ward/is_name_generated , 'yes') ),  /data/init/generated_name_translation ,  /data/init/custom_place_name )" required="true()"/>
+      <bind nodeset="/data/ward/is_name_generated" type="select1" required="true()" relevant="not(selected( /data/init/create_new_person ,'none'))"/>
+      <bind nodeset="/data/ward/name" type="string" required="true()" calculate="if( ( selected( /data/ward/is_name_generated , 'true') or selected( /data/ward/is_name_generated , 'yes') ),  /data/init/generated_name_translation ,  /data/init/custom_place_name )"/>
       <bind nodeset="/data/ward/external_id" type="string"/>
       <bind nodeset="/data/ward/notes" type="string"/>
       <bind nodeset="/data/ward/contact" type="string" calculate="if(selected( /data/init/create_new_person ,'none'), &quot;&quot;, coalesce( /data/init/select_person ,&quot;NEW&quot;))"/>
@@ -1103,16 +1139,24 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
       </select1>
       <select1 appearance="hidden" ref="/data/init/generated_name">
         <item>
-          <label ref="jr:itext('/data/init/generated_name/district_hospital:label')"/>
-          <value>district_hospital</value>
+          <label ref="jr:itext('/data/init/generated_name/county:label')"/>
+          <value>county</value>
         </item>
         <item>
-          <label ref="jr:itext('/data/init/generated_name/health_center:label')"/>
-          <value>health_center</value>
+          <label ref="jr:itext('/data/init/generated_name/sub_county:label')"/>
+          <value>sub_county</value>
         </item>
         <item>
-          <label ref="jr:itext('/data/init/generated_name/clinic:label')"/>
-          <value>clinic</value>
+          <label ref="jr:itext('/data/init/generated_name/ward:label')"/>
+          <value>ward</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/generated_name/community_health_area:label')"/>
+          <value>community_health_area</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/generated_name/household:label')"/>
+          <value>household</value>
         </item>
       </select1>
       <group appearance="field-list" ref="/data/contact">
