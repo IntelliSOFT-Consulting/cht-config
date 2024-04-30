@@ -1,24 +1,35 @@
 module.exports = [
   {
-    id: 'assessments-all-time',
+    id: 'pregnancy-all-time',
     type: 'count',
     icon: 'icon-healthcare-assessment',
     goal: -1,
-    translation_key: 'targets.assessments.title',
+    translation_key: 'targets.pregnancy.title',
     subtitle_translation_key: 'targets.all_time.subtitle',
     appliesTo: 'reports',
-    appliesToType: ['pregn'],
+    appliesToType: ['pregnancy_form'],
     date: 'now',
   },
   {
-    id: 'assessments-this-month',
+    id: 'pregnancy-follow-up-all-time',
+    type: 'count',
+    icon: 'icon-healthcare-assessment',
+    goal: 11,
+    translation_key: 'targets.pregnancy-follow-up.title',
+    subtitle_translation_key: 'targets.all_time.subtitle',
+    appliesTo: 'reports',
+    appliesToType: ['pregnancyfollowup'],
+    date: 'now',
+  },
+  {
+    id: 'pregnancy-this-month',
     type: 'count',
     icon: 'icon-healthcare-assessment',
     goal: 2,
-    translation_key: 'targets.assessments.title',
+    translation_key: 'targets.pregnancy.title',
     subtitle_translation_key: 'targets.this_month.subtitle',
     appliesTo: 'reports',
-    appliesToType: ['pregn'],
+    appliesToType: ['pregnancy_form'],
     date: 'reported',
   },
   {
@@ -26,50 +37,26 @@ module.exports = [
     type: 'count',
     icon: 'icon-cough',
     goal: -1,
-    translation_key: 'targets.assessments.total.cough.title',
+    translation_key: 'targets.pregnancy.total.cough.title',
     subtitle_translation_key: 'targets.this_month.subtitle',
     appliesTo: 'reports',
-    appliesToType: ['pregn'],
+    appliesToType: ['pregnancy_form'],
     appliesIf: function (contact, report) {
       return Utils.getField(report, 'group_assessment.cough') === 'yes';
     },
     idType: 'contact',
     date: 'reported',
   },
+
   {
-    id: 'percentage-contacts-with-cough-this-month',
-    type: 'percent',
-    icon: 'pregnancy',
-    goal: -1,
-    translation_key: 'targets.assessments.percentage.cough.title',
-    percentage_count_translation_key:
-      'targets.assessments.percentage.with.cough',
-    subtitle_translation_key: 'targets.this_month.subtitle',
-    appliesTo: 'reports',
-    appliesToType: ['pregn'],
-    appliesIf: function (contact) {
-      return (
-        contact.contact &&
-        contact.contact.parent &&
-        contact.contact.parent.parent &&
-        contact.contact.parent.parent.parent
-      );
-    },
-    passesIf: function (contact, report) {
-      return Utils.getField(report, 'group_assessment.cough') === 'yes';
-    },
-    idType: 'contact',
-    date: 'reported',
-  },
-  {
-    id: 'households-with-assessments-this-month',
+    id: 'households-with-pregnancy-this-month',
     type: 'count',
     icon: 'icon-household',
     goal: 2,
-    translation_key: 'targets.households.with.assessments.title',
+    translation_key: 'targets.households.with.pregnancy.title',
     subtitle_translation_key: 'targets.this_month.subtitle',
     appliesTo: 'reports',
-    appliesToType: ['pregn'],
+    appliesToType: ['pregnancy_form'],
     date: 'reported',
     emitCustom: (emit, original, contact) => {
       const householdId = contact.contact && contact.contact.parent._id;

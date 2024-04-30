@@ -1,14 +1,14 @@
 module.exports = [
   {
     name: 'assessment-after-registration',
-    title: 'Pregnancy Follow up',
+    title: 'Pregnancy Form',
     icon: 'healthcare',
     appliesTo: 'reports',
-    appliesToType: ['pregn'],
+    appliesToType: ['pregnancy_form'],
     appliesIf: function () {
-      return user.role === 'chp_supervisor';
+      return user.role === 'chp';
     },
-    actions: [{ form: 'pregnancy_follow_up_form' }],
+    actions: [{ form: 'pregnancy_form' }],
     events: [
       {
         start: 5,
@@ -22,7 +22,7 @@ module.exports = [
     title: 'Pregnancy Follow up test',
     icon: 'followup',
     appliesTo: 'reports',
-    appliesToType: ['pregn'],
+    appliesToType: ['pregnancy_form'],
     appliesIf: function () {
       return user.role === 'chp_supervisor';
     },
