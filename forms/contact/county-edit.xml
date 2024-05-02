@@ -5,6 +5,27 @@
     <model>
       <itext>
         <translation lang="en">
+          <text id="/data/county/approximate_population:label">
+            <value>Approximate Population size (KM)</value>
+          </text>
+          <text id="/data/county/available_health_facilities/no:label">
+            <value>No</value>
+          </text>
+          <text id="/data/county/available_health_facilities/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/data/county/available_health_facilities:label">
+            <value>Are There Available Health Facilities?</value>
+          </text>
+          <text id="/data/county/available_natural_park/no:label">
+            <value>no</value>
+          </text>
+          <text id="/data/county/available_natural_park/yes:label">
+            <value>yes</value>
+          </text>
+          <text id="/data/county/available_natural_park:label">
+            <value>Is There Available Natural parks?</value>
+          </text>
           <text id="/data/county/contact/_id:hint">
             <value>Select the Primary Contact</value>
           </text>
@@ -13,6 +34,9 @@
           </text>
           <text id="/data/county/external_id:label">
             <value>External ID</value>
+          </text>
+          <text id="/data/county/health_facilities:label">
+            <value>No. of Health facilities</value>
           </text>
           <text id="/data/county/is_name_generated/false:label">
             <value>No, I want to name it manually</value>
@@ -25,6 +49,18 @@
           </text>
           <text id="/data/county/name:label">
             <value>Name of this <output value=" /data/init/place_type_translation "/></value>
+          </text>
+          <text id="/data/county/natural_park:label">
+            <value>Number Of Natural Parks</value>
+          </text>
+          <text id="/data/county/no_natural_park/false:label">
+            <value>No</value>
+          </text>
+          <text id="/data/county/no_natural_park/true:label">
+            <value>Yes</value>
+          </text>
+          <text id="/data/county/no_natural_park:label">
+            <value>Are there organized plans to have?</value>
           </text>
           <text id="/data/county/notes:label">
             <value>Notes</value>
@@ -55,6 +91,27 @@
           </text>
         </translation>
         <translation lang="fr">
+          <text id="/data/county/approximate_population:label">
+            <value>Approximate Population</value>
+          </text>
+          <text id="/data/county/available_health_facilities/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/data/county/available_health_facilities/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/data/county/available_health_facilities:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/available_natural_park/no:label">
+            <value>Non</value>
+          </text>
+          <text id="/data/county/available_natural_park/yes:label">
+            <value>Oui</value>
+          </text>
+          <text id="/data/county/available_natural_park:label">
+            <value>-</value>
+          </text>
           <text id="/data/county/contact/_id:hint">
             <value>Sélectionnez le contact primaire</value>
           </text>
@@ -63,6 +120,9 @@
           </text>
           <text id="/data/county/external_id:label">
             <value>Code externe</value>
+          </text>
+          <text id="/data/county/health_facilities:label">
+            <value>-</value>
           </text>
           <text id="/data/county/is_name_generated/false:label">
             <value>Non, je veux nommer ça manuellement</value>
@@ -75,6 +135,18 @@
           </text>
           <text id="/data/county/name:label">
             <value>Nom pour <output value=" /data/init/place_type_translation "/></value>
+          </text>
+          <text id="/data/county/natural_park:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/no_natural_park/false:label">
+            <value>Non</value>
+          </text>
+          <text id="/data/county/no_natural_park/true:label">
+            <value>Oui</value>
+          </text>
+          <text id="/data/county/no_natural_park:label">
+            <value>-</value>
           </text>
           <text id="/data/county/notes:label">
             <value>Notes</value>
@@ -105,6 +177,27 @@
           </text>
         </translation>
         <translation lang="hi">
+          <text id="/data/county/approximate_population:label">
+            <value>Approximate Population</value>
+          </text>
+          <text id="/data/county/available_health_facilities/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/data/county/available_health_facilities/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/data/county/available_health_facilities:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/available_natural_park/no:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/data/county/available_natural_park/yes:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/data/county/available_natural_park:label">
+            <value>-</value>
+          </text>
           <text id="/data/county/contact/_id:hint">
             <value>प्राथमिक कॉंटॅक्ट चुनें</value>
           </text>
@@ -113,6 +206,9 @@
           </text>
           <text id="/data/county/external_id:label">
             <value>बाहरी ID</value>
+          </text>
+          <text id="/data/county/health_facilities:label">
+            <value>-</value>
           </text>
           <text id="/data/county/is_name_generated/false:label">
             <value>नहीं, मैं इसे मैन्युअल रूप से नाम देना चाहता हूं</value>
@@ -125,6 +221,18 @@
           </text>
           <text id="/data/county/name:label">
             <value>इस स्थान का नाम <output value=" /data/init/place_type_translation "/></value>
+          </text>
+          <text id="/data/county/natural_park:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/no_natural_park/false:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/data/county/no_natural_park/true:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/data/county/no_natural_park:label">
+            <value>-</value>
           </text>
           <text id="/data/county/notes:label">
             <value>नोट्स</value>
@@ -155,6 +263,27 @@
           </text>
         </translation>
         <translation lang="id">
+          <text id="/data/county/approximate_population:label">
+            <value>Approximate Population</value>
+          </text>
+          <text id="/data/county/available_health_facilities/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/data/county/available_health_facilities/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/data/county/available_health_facilities:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/available_natural_park/no:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/data/county/available_natural_park/yes:label">
+            <value>Iya</value>
+          </text>
+          <text id="/data/county/available_natural_park:label">
+            <value>-</value>
+          </text>
           <text id="/data/county/contact/_id:hint">
             <value>Pilih Kontak Utama</value>
           </text>
@@ -163,6 +292,9 @@
           </text>
           <text id="/data/county/external_id:label">
             <value>Eksternal ID</value>
+          </text>
+          <text id="/data/county/health_facilities:label">
+            <value>-</value>
           </text>
           <text id="/data/county/is_name_generated/false:label">
             <value>Tidak, saya ingin nama itu secara manual</value>
@@ -175,6 +307,18 @@
           </text>
           <text id="/data/county/name:label">
             <value>Masukkan nama tempat ini</value>
+          </text>
+          <text id="/data/county/natural_park:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/no_natural_park/false:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/data/county/no_natural_park/true:label">
+            <value>Iya</value>
+          </text>
+          <text id="/data/county/no_natural_park:label">
+            <value>-</value>
           </text>
           <text id="/data/county/notes:label">
             <value>Catatan</value>
@@ -205,6 +349,27 @@
           </text>
         </translation>
         <translation lang="ne">
+          <text id="/data/county/approximate_population:label">
+            <value>Approximate Population</value>
+          </text>
+          <text id="/data/county/available_health_facilities/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/data/county/available_health_facilities/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/data/county/available_health_facilities:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/available_natural_park/no:label">
+            <value>होइन</value>
+          </text>
+          <text id="/data/county/available_natural_park/yes:label">
+            <value>हो</value>
+          </text>
+          <text id="/data/county/available_natural_park:label">
+            <value>-</value>
+          </text>
           <text id="/data/county/contact/_id:hint">
             <value>प्राथमिक सम्पर्क व्यक्ति छान्नुहोस्</value>
           </text>
@@ -213,6 +378,9 @@
           </text>
           <text id="/data/county/external_id:label">
             <value>बाहिरी ID</value>
+          </text>
+          <text id="/data/county/health_facilities:label">
+            <value>-</value>
           </text>
           <text id="/data/county/is_name_generated/false:label">
             <value>म आफैँ नाम दिन चाहन्छु</value>
@@ -225,6 +393,18 @@
           </text>
           <text id="/data/county/name:label">
             <value>यस स्थानको नाम लेख्नुहोस्</value>
+          </text>
+          <text id="/data/county/natural_park:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/no_natural_park/false:label">
+            <value>होइन</value>
+          </text>
+          <text id="/data/county/no_natural_park/true:label">
+            <value>हो</value>
+          </text>
+          <text id="/data/county/no_natural_park:label">
+            <value>-</value>
           </text>
           <text id="/data/county/notes:label">
             <value>टिप्पणी</value>
@@ -255,6 +435,27 @@
           </text>
         </translation>
         <translation lang="sw">
+          <text id="/data/county/approximate_population:label">
+            <value>Approximate Population</value>
+          </text>
+          <text id="/data/county/available_health_facilities/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/county/available_health_facilities/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/county/available_health_facilities:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/available_natural_park/no:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/county/available_natural_park/yes:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/county/available_natural_park:label">
+            <value>-</value>
+          </text>
           <text id="/data/county/contact/_id:hint">
             <value>Chagua Mwasiliwa mkuu</value>
           </text>
@@ -263,6 +464,9 @@
           </text>
           <text id="/data/county/external_id:label">
             <value>Namba ya nje</value>
+          </text>
+          <text id="/data/county/health_facilities:label">
+            <value>-</value>
           </text>
           <text id="/data/county/is_name_generated/false:label">
             <value>Hapana, ningependa kuijaza mwenyewe</value>
@@ -275,6 +479,18 @@
           </text>
           <text id="/data/county/name:label">
             <value>Jaza jina la eneo hii</value>
+          </text>
+          <text id="/data/county/natural_park:label">
+            <value>-</value>
+          </text>
+          <text id="/data/county/no_natural_park/false:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/county/no_natural_park/true:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/county/no_natural_park:label">
+            <value>-</value>
           </text>
           <text id="/data/county/notes:label">
             <value>Maelezo</value>
@@ -306,7 +522,7 @@
         </translation>
       </itext>
       <instance>
-        <data id="contact:county:edit" prefix="J1!contact:county:edit!" delimiter="#" version="2024-04-17 12-46">
+        <data id="contact:county:edit" prefix="J1!contact:county:edit!" delimiter="#" version="2024-05-02 10-42">
           <inputs>
             <meta>
               <location>
@@ -333,6 +549,12 @@
             <is_name_generated/>
             <generated_name/>
             <name/>
+            <approximate_population/>
+            <available_health_facilities/>
+            <health_facilities/>
+            <available_natural_park/>
+            <natural_park/>
+            <no_natural_park/>
             <external_id/>
             <notes/>
             <geolocation/>
@@ -365,9 +587,15 @@
       <bind nodeset="/data/county/contact/name" type="string"/>
       <bind nodeset="/data/county/contact/contact_name" type="string" calculate="../name"/>
       <bind nodeset="/data/county/contact/_id" type="db:person"/>
-      <bind nodeset="/data/county/is_name_generated" type="select1" relevant="not( /data/county/contact/_id ) or selected( . , 'true') or boolean( /data/county/contact/_id )" readonly="boolean( /data/county/contact/_id )" calculate="if(  /data/county/generated_name  = ../name, 'true', 'false')" required="true()"/>
+      <bind nodeset="/data/county/is_name_generated" type="select1" relevant="not( /data/county/contact/_id ) or selected( . , 'true') or boolean( /data/county/contact/_id )" readonly="boolean( /data/county/contact/_id )" required="true()" calculate="if(  /data/county/generated_name  = ../name, 'true', 'false')"/>
       <bind nodeset="/data/county/generated_name" type="string" calculate=" /data/init/generated_name_translation "/>
-      <bind nodeset="/data/county/name" type="string" relevant="boolean( /data/county/contact/_id ) or not( /data/county/contact/_id ) or not(selected( /data/county/is_name_generated , 'true')) or not(selected( /data/county/is_name_generated , 'yes'))" calculate="if( ( selected( /data/county/is_name_generated , 'true') or selected( /data/county/is_name_generated , 'yes') ),  /data/county/generated_name , .)" required="true()"/>
+      <bind nodeset="/data/county/name" type="string" relevant="boolean( /data/county/contact/_id ) or not( /data/county/contact/_id ) or not(selected( /data/county/is_name_generated , 'true')) or not(selected( /data/county/is_name_generated , 'yes'))" required="true()" calculate="if( ( selected( /data/county/is_name_generated , 'true') or selected( /data/county/is_name_generated , 'yes') ),  /data/county/generated_name , .)"/>
+      <bind nodeset="/data/county/approximate_population" type="string"/>
+      <bind nodeset="/data/county/available_health_facilities" type="select1"/>
+      <bind nodeset="/data/county/health_facilities" type="int" constraint=".&gt;=1" jr:constraintMsg="It must be greater than 1" relevant="selected( /data/county/available_health_facilities ,'yes')"/>
+      <bind nodeset="/data/county/available_natural_park" type="select1"/>
+      <bind nodeset="/data/county/natural_park" type="int" constraint=".&gt;=1" jr:constraintMsg="It must be greater than 1" relevant="selected(  /data/county/available_natural_park ,'yes')"/>
+      <bind nodeset="/data/county/no_natural_park" type="select1" relevant="selected(  /data/county/available_natural_park ,'no')"/>
       <bind nodeset="/data/county/external_id" type="string"/>
       <bind nodeset="/data/county/notes" type="string"/>
       <bind nodeset="/data/county/geolocation" type="string" calculate="concat(../../inputs/meta/location/lat, concat(' ', ../../inputs/meta/location/long))"/>
@@ -414,6 +642,48 @@
       <input ref="/data/county/name">
         <label ref="jr:itext('/data/county/name:label')"/>
       </input>
+      <input ref="/data/county/approximate_population">
+        <label ref="jr:itext('/data/county/approximate_population:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/data/county/available_health_facilities">
+        <label ref="jr:itext('/data/county/available_health_facilities:label')"/>
+        <item>
+          <label ref="jr:itext('/data/county/available_health_facilities/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/county/available_health_facilities/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/county/health_facilities">
+        <label ref="jr:itext('/data/county/health_facilities:label')"/>
+      </input>
+      <select1 appearance="columns" ref="/data/county/available_natural_park">
+        <label ref="jr:itext('/data/county/available_natural_park:label')"/>
+        <item>
+          <label ref="jr:itext('/data/county/available_natural_park/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/county/available_natural_park/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/data/county/natural_park">
+        <label ref="jr:itext('/data/county/natural_park:label')"/>
+      </input>
+      <select1 ref="/data/county/no_natural_park">
+        <label ref="jr:itext('/data/county/no_natural_park:label')"/>
+        <item>
+          <label ref="jr:itext('/data/county/no_natural_park/true:label')"/>
+          <value>true</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/county/no_natural_park/false:label')"/>
+          <value>false</value>
+        </item>
+      </select1>
       <input ref="/data/county/external_id">
         <label ref="jr:itext('/data/county/external_id:label')"/>
       </input>
