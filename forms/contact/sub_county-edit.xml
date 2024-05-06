@@ -14,6 +14,15 @@
           <text id="/data/sub_county/external_id:label">
             <value>External ID</value>
           </text>
+          <text id="/data/sub_county/helth_facilities/false:label">
+            <value>No</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities/true:label">
+            <value>Yes</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities:label">
+            <value>Are There Health Facilities?</value>
+          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>No, I want to name it manually</value>
           </text>
@@ -22,6 +31,9 @@
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>Would you like to name the place after the primary contact: &quot;<output value=" /data/sub_county/generated_name "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>Largest level of health facility</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>Name of this <output value=" /data/init/place_type_translation "/></value>
@@ -64,6 +76,15 @@
           <text id="/data/sub_county/external_id:label">
             <value>Code externe</value>
           </text>
+          <text id="/data/sub_county/helth_facilities/false:label">
+            <value>Non</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities/true:label">
+            <value>Oui</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities:label">
+            <value>Health Facilities</value>
+          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>Non, je veux nommer ça manuellement</value>
           </text>
@@ -72,6 +93,9 @@
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>Voulez-vous nommer l'endroit: &quot;<output value=" /data/sub_county/generated_name "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>-</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>Nom pour <output value=" /data/init/place_type_translation "/></value>
@@ -114,6 +138,15 @@
           <text id="/data/sub_county/external_id:label">
             <value>बाहरी ID</value>
           </text>
+          <text id="/data/sub_county/helth_facilities/false:label">
+            <value>नहीं</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities/true:label">
+            <value>हाँ</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities:label">
+            <value>Health Facilities</value>
+          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>नहीं, मैं इसे मैन्युअल रूप से नाम देना चाहता हूं</value>
           </text>
@@ -122,6 +155,9 @@
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>क्या आप इस स्थान को प्राथमिक कॉंटॅक्ट का नाम देना चाहेंगे &quot;<output value=" /data/sub_county/generated_name "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>Largest level of health facility</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>इस स्थान का नाम <output value=" /data/init/place_type_translation "/></value>
@@ -164,6 +200,15 @@
           <text id="/data/sub_county/external_id:label">
             <value>Eksternal ID</value>
           </text>
+          <text id="/data/sub_county/helth_facilities/false:label">
+            <value>Tidak</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities/true:label">
+            <value>Iya</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities:label">
+            <value>Health Facilities</value>
+          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>Tidak, saya ingin nama itu secara manual</value>
           </text>
@@ -172,6 +217,9 @@
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>Apakah Anda ingin nama tempat setelah kontak utama: &quot;<output value=" /data/sub_county/generated_name "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>-</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>Masukkan nama tempat ini</value>
@@ -214,6 +262,15 @@
           <text id="/data/sub_county/external_id:label">
             <value>बाहिरी ID</value>
           </text>
+          <text id="/data/sub_county/helth_facilities/false:label">
+            <value>होइन</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities/true:label">
+            <value>हो</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities:label">
+            <value>Health Facilities</value>
+          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>म आफैँ नाम दिन चाहन्छु</value>
           </text>
@@ -222,6 +279,9 @@
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>के तपाई यस स्थानको प्राथमिक सम्पर्क व्यक्तिलाई नाम दिन चाहनुहुन्छ &quot;<output value=" /data/sub_county/generated_name "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>-</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>यस स्थानको नाम लेख्नुहोस्</value>
@@ -264,6 +324,15 @@
           <text id="/data/sub_county/external_id:label">
             <value>Namba ya nje</value>
           </text>
+          <text id="/data/sub_county/helth_facilities/false:label">
+            <value>Hapana</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities/true:label">
+            <value>Ndio</value>
+          </text>
+          <text id="/data/sub_county/helth_facilities:label">
+            <value>Health Facilities</value>
+          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>Hapana, ningependa kuijaza mwenyewe</value>
           </text>
@@ -272,6 +341,9 @@
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>Je, Ungependa kuita eneo hii kama mwasilishi mkuu wa eneo hii? &quot;<output value=" /data/sub_county/generated_name "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>-</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>Jaza jina la eneo hii</value>
@@ -306,7 +378,7 @@
         </translation>
       </itext>
       <instance>
-        <data id="contact:sub_county:edit" prefix="J1!contact:sub_county:edit!" delimiter="#" version="2024-05-02 10-13">
+        <data id="contact:sub_county:edit" prefix="J1!contact:sub_county:edit!" delimiter="#" version="2024-05-06 12-16">
           <inputs>
             <meta>
               <location>
@@ -331,6 +403,8 @@
               <_id/>
             </contact>
             <is_name_generated/>
+            <helth_facilities/>
+            <largest_health_facilities_level/>
             <generated_name/>
             <name/>
             <external_id/>
@@ -365,9 +439,11 @@
       <bind nodeset="/data/sub_county/contact/name" type="string"/>
       <bind nodeset="/data/sub_county/contact/contact_name" type="string" calculate="../name"/>
       <bind nodeset="/data/sub_county/contact/_id" type="db:person"/>
-      <bind nodeset="/data/sub_county/is_name_generated" type="select1" required="true()" relevant="not( /data/sub_county/contact/_id ) or selected( . , 'true') or boolean( /data/sub_county/contact/_id )" readonly="boolean( /data/sub_county/contact/_id )" calculate="if(  /data/sub_county/generated_name  = ../name, 'true', 'false')"/>
+      <bind nodeset="/data/sub_county/is_name_generated" type="select1" readonly="boolean( /data/sub_county/contact/_id )" calculate="if(  /data/sub_county/generated_name  = ../name, 'true', 'false')" required="true()" relevant="not( /data/sub_county/contact/_id ) or selected( . , 'true') or boolean( /data/sub_county/contact/_id )"/>
+      <bind nodeset="/data/sub_county/helth_facilities" type="select1" required="true()"/>
+      <bind nodeset="/data/sub_county/largest_health_facilities_level" type="select1" relevant="selected( /data/sub_county/helth_facilities ,'yes')"/>
       <bind nodeset="/data/sub_county/generated_name" type="string" calculate=" /data/init/generated_name_translation "/>
-      <bind nodeset="/data/sub_county/name" type="string" relevant="boolean( /data/sub_county/contact/_id ) or not( /data/sub_county/contact/_id ) or not(selected( /data/sub_county/is_name_generated , 'true')) or not(selected( /data/sub_county/is_name_generated , 'yes'))" required="true()" calculate="if( ( selected( /data/sub_county/is_name_generated , 'true') or selected( /data/sub_county/is_name_generated , 'yes') ),  /data/sub_county/generated_name , .)"/>
+      <bind nodeset="/data/sub_county/name" type="string" calculate="if( ( selected( /data/sub_county/is_name_generated , 'true') or selected( /data/sub_county/is_name_generated , 'yes') ),  /data/sub_county/generated_name , .)" required="true()" relevant="boolean( /data/sub_county/contact/_id ) or not( /data/sub_county/contact/_id ) or not(selected( /data/sub_county/is_name_generated , 'true')) or not(selected( /data/sub_county/is_name_generated , 'yes'))"/>
       <bind nodeset="/data/sub_county/external_id" type="string"/>
       <bind nodeset="/data/sub_county/notes" type="string"/>
       <bind nodeset="/data/sub_county/geolocation" type="string" calculate="concat(../../inputs/meta/location/lat, concat(' ', ../../inputs/meta/location/long))"/>
@@ -409,6 +485,44 @@
         <item>
           <label ref="jr:itext('/data/sub_county/is_name_generated/false:label')"/>
           <value>false</value>
+        </item>
+      </select1>
+      <select1 appearance="columns" ref="/data/sub_county/helth_facilities">
+        <label ref="jr:itext('/data/sub_county/helth_facilities:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sub_county/helth_facilities/true:label')"/>
+          <value>true</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sub_county/helth_facilities/false:label')"/>
+          <value>false</value>
+        </item>
+      </select1>
+      <select1 appearance="minimal" ref="/data/sub_county/largest_health_facilities_level">
+        <label ref="jr:itext('/data/sub_county/largest_health_facilities_level:label')"/>
+        <item>
+          <label>level 1</label>
+          <value>level1</value>
+        </item>
+        <item>
+          <label>level 2</label>
+          <value>level2</value>
+        </item>
+        <item>
+          <label>level 3</label>
+          <value>level3</value>
+        </item>
+        <item>
+          <label>level 4</label>
+          <value>level4</value>
+        </item>
+        <item>
+          <label>level 5</label>
+          <value>level5</value>
+        </item>
+        <item>
+          <label>level 6</label>
+          <value>level6</value>
         </item>
       </select1>
       <input ref="/data/sub_county/name">

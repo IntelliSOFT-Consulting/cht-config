@@ -17,9 +17,6 @@
           <text id="/data/sub_county/helth_facilities:label">
             <value>Are There Health Facilities?</value>
           </text>
-          <text id="/data/sub_county/helth_facilities_level:label">
-            <value>Largest level of health facility</value>
-          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>No, I want to name it manually</value>
           </text>
@@ -28,6 +25,27 @@
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>Would you like to name the place after the primary contact: &quot;<output value=" /data/init/generated_name_translation "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level1:label">
+            <value>level 1</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level2:label">
+            <value>level 2</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level3:label">
+            <value>level 3</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level4:label">
+            <value>level 4</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level5:label">
+            <value>level 5</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level6:label">
+            <value>level 6</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>Largest level of health facility</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>Name</value>
@@ -181,9 +199,6 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/sub_county/helth_facilities:label">
             <value>Health Facilities</value>
           </text>
-          <text id="/data/sub_county/helth_facilities_level:label">
-            <value>-</value>
-          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>Non, je veux nommer ça manuellement</value>
           </text>
@@ -192,6 +207,27 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>Voulez-vous nommer l'endroit: &quot;<output value=" /data/init/generated_name_translation "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level1:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level2:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level3:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level4:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level5:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level6:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>-</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>Nom</value>
@@ -348,9 +384,6 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/sub_county/helth_facilities:label">
             <value>Health Facilities</value>
           </text>
-          <text id="/data/sub_county/helth_facilities_level:label">
-            <value>Largest level of health facility</value>
-          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>नहीं, मैं इसे मैन्युअल रूप से नाम देना चाहता हूं</value>
           </text>
@@ -359,6 +392,27 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>क्या आप इस स्थान को प्राथमिक कॉंटॅक्ट का नाम देना चाहेंगे?: <output value=" /data/init/generated_name_translation "/></value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level1:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level2:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level3:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level4:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level5:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level6:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>Largest level of health facility</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>नाम</value>
@@ -515,9 +569,6 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/sub_county/helth_facilities:label">
             <value>Health Facilities</value>
           </text>
-          <text id="/data/sub_county/helth_facilities_level:label">
-            <value>-</value>
-          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>Tidak, saya ingin nama itu secara manual</value>
           </text>
@@ -526,6 +577,27 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>Apakah Anda ingin nama tempat setelah kontak utama: &quot;<output value=" /data/init/generated_name_translation "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level1:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level2:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level3:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level4:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level5:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level6:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>-</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>Nama</value>
@@ -682,9 +754,6 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/sub_county/helth_facilities:label">
             <value>Health Facilities</value>
           </text>
-          <text id="/data/sub_county/helth_facilities_level:label">
-            <value>-</value>
-          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>होइन, म आफैँ नाम दिन चाहन्छु</value>
           </text>
@@ -693,6 +762,27 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>के तपाइ यस स्थानकाे प्राथमिक सम्पर्क नाम दिन चाहानु हुन्छ?:<output value=" /data/init/generated_name_translation "/></value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level1:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level2:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level3:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level4:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level5:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level6:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>-</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>नाम</value>
@@ -849,9 +939,6 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/sub_county/helth_facilities:label">
             <value>Health Facilities</value>
           </text>
-          <text id="/data/sub_county/helth_facilities_level:label">
-            <value>-</value>
-          </text>
           <text id="/data/sub_county/is_name_generated/false:label">
             <value>Hapana, ningependa kuijaza mwenyewe</value>
           </text>
@@ -860,6 +947,27 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           </text>
           <text id="/data/sub_county/is_name_generated:label">
             <value>Je, Ungependa kuita eneo hii kama mwasilishi mkuu wa eneo hii? &quot;<output value=" /data/init/generated_name_translation "/>&quot;?</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level1:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level2:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level3:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level4:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level5:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level/level6:label">
+            <value>-</value>
+          </text>
+          <text id="/data/sub_county/largest_health_facilities_level:label">
+            <value>-</value>
           </text>
           <text id="/data/sub_county/name:label">
             <value>Jina</value>
@@ -1005,7 +1113,7 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
         </translation>
       </itext>
       <instance>
-        <data id="contact:sub_county:create" prefix="J1!contact:sub_county:create!" delimiter="#" version="2024-05-02 10-13">
+        <data id="contact:sub_county:create" prefix="J1!contact:sub_county:create!" delimiter="#" version="2024-05-06 12-16">
           <inputs>
             <meta>
               <location>
@@ -1027,7 +1135,7 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
             <is_name_generated>true</is_name_generated>
             <name/>
             <helth_facilities/>
-            <helth_facilities_level/>
+            <largest_health_facilities_level/>
             <external_id/>
             <notes/>
             <contact/>
@@ -1106,13 +1214,13 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/contact/parent" type="string"/>
       <bind nodeset="/data/contact/type" type="string"/>
       <bind nodeset="/data/contact/name" type="string" required="true()"/>
-      <bind nodeset="/data/contact/short_name" type="string" required="false()" constraint="string-length(.) &lt;= 10" jr:constraintMsg="Short name can not be more than 10 characters long."/>
-      <bind nodeset="/data/contact/date_of_birth" type="string" required="true()" calculate="../ephemeral_dob/dob_iso"/>
+      <bind nodeset="/data/contact/short_name" type="string" jr:constraintMsg="Short name can not be more than 10 characters long." required="false()" constraint="string-length(.) &lt;= 10"/>
+      <bind nodeset="/data/contact/date_of_birth" type="string" calculate="../ephemeral_dob/dob_iso" required="true()"/>
       <bind nodeset="/data/contact/date_of_birth_method" type="string" calculate="../ephemeral_dob/dob_method"/>
-      <bind nodeset="/data/contact/ephemeral_dob/dob_calendar" type="date" relevant="not(selected(../dob_method,'approx'))" required="true()" constraint=". &lt;= now()" jr:constraintMsg="Date must be before today"/>
+      <bind nodeset="/data/contact/ephemeral_dob/dob_calendar" type="date" relevant="not(selected(../dob_method,'approx'))" jr:constraintMsg="Date must be before today" required="true()" constraint=". &lt;= now()"/>
       <bind nodeset="/data/contact/ephemeral_dob/age_label" readonly="true()" type="string" relevant="selected(../dob_method,'approx')"/>
-      <bind nodeset="/data/contact/ephemeral_dob/age_years" type="int" relevant="selected(../dob_method,'approx')" required="true()" constraint=". &gt;= 0 and . &lt;= 130" jr:constraintMsg="Age must be between 0 and 130"/>
-      <bind nodeset="/data/contact/ephemeral_dob/age_months" type="int" relevant="selected(../dob_method,'approx')" constraint=". &gt;= 0 and . &lt;= 11" jr:constraintMsg="Months must between 0 and 11"/>
+      <bind nodeset="/data/contact/ephemeral_dob/age_years" type="int" relevant="selected(../dob_method,'approx')" jr:constraintMsg="Age must be between 0 and 130" required="true()" constraint=". &gt;= 0 and . &lt;= 130"/>
+      <bind nodeset="/data/contact/ephemeral_dob/age_months" type="int" relevant="selected(../dob_method,'approx')" jr:constraintMsg="Months must between 0 and 11" constraint=". &gt;= 0 and . &lt;= 11"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_method" type="select"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_approx" type="string" calculate="add-date(today(), 0- /data/contact/ephemeral_dob/age_years , 0- /data/contact/ephemeral_dob/age_months )"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_raw" type="string" calculate="if(not(selected( ../dob_method,'approx')), 
@@ -1120,8 +1228,8 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
 ../dob_approx)"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_iso" type="string" calculate="format-date-time(../dob_raw,&quot;%Y-%m-%d&quot;)"/>
       <bind nodeset="/data/contact/ephemeral_dob/dob_debug" readonly="true()" type="string" relevant="false()"/>
-      <bind nodeset="/data/contact/phone" type="tel" relevant="selected( /data/init/create_new_person ,'new_person')" constraint="true()" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678"/>
-      <bind nodeset="/data/contact/phone_alternate" type="tel" relevant="selected( /data/init/create_new_person ,'new_person')" constraint="true()" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678"/>
+      <bind nodeset="/data/contact/phone" type="tel" relevant="selected( /data/init/create_new_person ,'new_person')" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678" constraint="true()"/>
+      <bind nodeset="/data/contact/phone_alternate" type="tel" relevant="selected( /data/init/create_new_person ,'new_person')" jr:constraintMsg="Please enter a valid local number, or use the standard international format, which includes a plus sign (+) and country code. For example: +254712345678" constraint="true()"/>
       <bind nodeset="/data/contact/sex" type="select1" relevant="selected( /data/init/create_new_person ,'new_person')" required="true()"/>
       <bind nodeset="/data/contact/role" type="select1" relevant="selected( /data/init/create_new_person ,'new_person')"/>
       <bind nodeset="/data/contact/role_other" type="string" relevant="selected(  /data/contact/role ,'other')" required="true()"/>
@@ -1133,9 +1241,9 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/sub_county/parent" type="string"/>
       <bind nodeset="/data/sub_county/type" type="string"/>
       <bind nodeset="/data/sub_county/is_name_generated" type="select1" relevant="not(selected( /data/init/create_new_person ,'none'))" required="true()"/>
-      <bind nodeset="/data/sub_county/name" type="string" required="true()" calculate="if( ( selected( /data/sub_county/is_name_generated , 'true') or selected( /data/sub_county/is_name_generated , 'yes') ),  /data/init/generated_name_translation ,  /data/init/custom_place_name )"/>
+      <bind nodeset="/data/sub_county/name" type="string" calculate="if( ( selected( /data/sub_county/is_name_generated , 'true') or selected( /data/sub_county/is_name_generated , 'yes') ),  /data/init/generated_name_translation ,  /data/init/custom_place_name )" required="true()"/>
       <bind nodeset="/data/sub_county/helth_facilities" type="select1" required="true()"/>
-      <bind nodeset="/data/sub_county/helth_facilities_level" type="string" relevant="selected( /data/sub_county/helth_facilities ,'yes')"/>
+      <bind nodeset="/data/sub_county/largest_health_facilities_level" type="select1" relevant="selected( /data/sub_county/helth_facilities ,'yes')"/>
       <bind nodeset="/data/sub_county/external_id" type="string"/>
       <bind nodeset="/data/sub_county/notes" type="string"/>
       <bind nodeset="/data/sub_county/contact" type="string" calculate="if(selected( /data/init/create_new_person ,'none'), &quot;&quot;, coalesce( /data/init/select_person ,&quot;NEW&quot;))"/>
@@ -1326,9 +1434,33 @@ DOB ISO: <output value=" /data/contact/ephemeral_dob/dob_iso "/></value></text>
           <value>no</value>
         </item>
       </select1>
-      <input ref="/data/sub_county/helth_facilities_level">
-        <label ref="jr:itext('/data/sub_county/helth_facilities_level:label')"/>
-      </input>
+      <select1 appearance="minimal" ref="/data/sub_county/largest_health_facilities_level">
+        <label ref="jr:itext('/data/sub_county/largest_health_facilities_level:label')"/>
+        <item>
+          <label ref="jr:itext('/data/sub_county/largest_health_facilities_level/level1:label')"/>
+          <value>level1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sub_county/largest_health_facilities_level/level2:label')"/>
+          <value>level2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sub_county/largest_health_facilities_level/level3:label')"/>
+          <value>level3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sub_county/largest_health_facilities_level/level4:label')"/>
+          <value>level4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sub_county/largest_health_facilities_level/level5:label')"/>
+          <value>level5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/sub_county/largest_health_facilities_level/level6:label')"/>
+          <value>level6</value>
+        </item>
+      </select1>
       <input ref="/data/init/custom_place_name">
         <label ref="jr:itext('/data/init/custom_place_name:label')"/>
       </input>
